@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Analytics.Text" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="nav_Dashboard.Text" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="nav_Logout.Text" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="nav_Settings.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="nav_Tasks.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="nav_Edit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="nav_Manage.Text" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="nav_Content.Text" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="nav_Tools.Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="nav_Accounts.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nav_DocCenter.Text" xml:space="preserve">
+    <value>文档中心</value>
+  </data>
+  <data name="nav_Help.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="nav_Site.Text" xml:space="preserve">
+    <value>查看网站</value>
+  </data>
+  <data name="err_BetweenMinMax.Text" xml:space="preserve">
+    <value>数值只能在最小值和最大值之间</value>
+  </data>
+  <data name="err_Email.Text" xml:space="preserve">
+    <value>只允许有效的电子邮件</value>
+  </data>
+  <data name="err_Minimum.Text" xml:space="preserve">
+    <value>文字必须至少为 {0} 个字符</value>
+  </data>
+  <data name="err_MinLessThanMax.Text" xml:space="preserve">
+    <value>最小值应小于最大值</value>
+  </data>
+  <data name="err_NoLargerThanExp.Text" xml:space="preserve">
+    <value>声望点不能大于经验点</value>
+  </data>
+  <data name="err_NonDecimalNumber.Text" xml:space="preserve">
+    <value>不允许十进制数字</value>
+  </data>
+  <data name="err_NonNegativeNumber.Text" xml:space="preserve">
+    <value>不允许负数</value>
+  </data>
+  <data name="err_NoUserFolder.Text" xml:space="preserve">
+    <value>{0} 不拥有任何资源.</value>
+  </data>
+  <data name="err_Number.Text" xml:space="preserve">
+    <value>只允许数字</value>
+  </data>
+  <data name="err_OneActionNeeded.Text" xml:space="preserve">
+    <value>至少需要一个动作</value>
+  </data>
+  <data name="err_PositiveNumber.Text" xml:space="preserve">
+    <value>只是允许正数</value>
+  </data>
+  <data name="err_Required.Text" xml:space="preserve">
+    <value>文本是必需的</value>
+  </data>
+  <data name="err_RoleAssignedToUser.Text" xml:space="preserve">
+    <value>此角色已分配给此用户.</value>
+  </data>
+  <data name="nav_Home.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="permissiongrid.Actions.Text" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="permissiongrid.Add Content.Text" xml:space="preserve">
+    <value>添加内容</value>
+  </data>
+  <data name="permissiongrid.Add User.Text" xml:space="preserve">
+    <value>添加用户</value>
+  </data>
+  <data name="permissiongrid.Add.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="permissiongrid.AllRoles.Text" xml:space="preserve">
+    <value>&lt;All Roles&gt;</value>
+  </data>
+  <data name="permissiongrid.Copy.Text" xml:space="preserve">
+    <value>拷贝</value>
+  </data>
+  <data name="permissiongrid.Delete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="permissiongrid.Display Name.Text" xml:space="preserve">
+    <value>显示名称:</value>
+  </data>
+  <data name="permissiongrid.Edit Content.Text" xml:space="preserve">
+    <value>编辑内容</value>
+  </data>
+  <data name="permissiongrid.Edit Tab.Text" xml:space="preserve">
+    <value>Full Control</value>
+  </data>
+  <data name="permissiongrid.Edit.Text" xml:space="preserve">
+    <value>Full Control</value>
+  </data>
+  <data name="permissiongrid.Export.Text" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="permissiongrid.Filter By Group.Text" xml:space="preserve">
+    <value>以组过滤</value>
+  </data>
+  <data name="permissiongrid.GlobalRoles.Text" xml:space="preserve">
+    <value>&lt;Global Roles&gt;</value>
+  </data>
+  <data name="permissiongrid.Import.Text" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="permissiongrid.Manage Settings.Text" xml:space="preserve">
+    <value>管理设置</value>
+  </data>
+  <data name="permissiongrid.Navigate.Text" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="permissiongrid.Select Role.Text" xml:space="preserve">
+    <value>选择角色</value>
+  </data>
+  <data name="permissiongrid.Type-roles.Text" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="permissiongrid.Type-users.Text" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="permissiongrid.View Tab.Text" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="permissiongrid.View.Text" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="nav_SiteAssets.Text" xml:space="preserve">
+    <value>网站资源</value>
+  </data>
+  <data name="nav_GlobalAssets.Text" xml:space="preserve">
+    <value>全局资源</value>
+  </data>
+  <data name="title_Tasks.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="txt_ViewIndex.Text" xml:space="preserve">
+    <value>查看 {0} of {1}</value>
+  </data>
+  <data name="btn_LoadMore.Text" xml:space="preserve">
+    <value>加载更多</value>
+  </data>
+  <data name="Documentation.Text" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="Framework.Text" xml:space="preserve">
+    <value>.Net Framework</value>
+  </data>
+  <data name="LicenseKey.Text" xml:space="preserve">
+    <value>许可证码</value>
+  </data>
+  <data name="ServerName.Text" xml:space="preserve">
+    <value>服务器名</value>
+  </data>
+  <data name="UpgradeLicense.Text" xml:space="preserve">
+    <value>[ 升级到 Evoq ]</value>
+  </data>
+  <data name="btn_CloseDialog.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CriticalUpdate.Text" xml:space="preserve">
+    <value>[ 关键更新 ]</value>
+  </data>
+  <data name="NormalUpdate.Text" xml:space="preserve">
+    <value>[ 新的更新 ]</value>
+  </data>
+  <data name="LockEditMode.Help" xml:space="preserve">
+    <value>锁定时，图标将显示为蓝色，即使在导航到其他页面时，您仍将保持编辑模式.</value>
+  </data>
+  <data name="LockEditMode.Text" xml:space="preserve">
+    <value>点击以锁定编辑模式.</value>
+  </data>
+  <data name="UnlockEditMode.Help" xml:space="preserve">
+    <value>解锁后，只要您导航到其他页面或完成更改，您将退出编辑模式.</value>
+  </data>
+  <data name="UnlockEditMode.Text" xml:space="preserve">
+    <value>点击解锁编辑模式.</value>
+  </data>
+</root>

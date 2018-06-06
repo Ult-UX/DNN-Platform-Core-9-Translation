@@ -1,0 +1,1326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_SiteSettings.Text" xml:space="preserve">
+    <value>站点设置</value>
+  </data>
+  <data name="TabSiteInfo.Text" xml:space="preserve">
+    <value>站点信息</value>
+  </data>
+  <data name="TabSiteBehavior.Text" xml:space="preserve">
+    <value>站点行为</value>
+  </data>
+  <data name="TabLanguage.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="TabSearch.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="TabDefaultPages.Text" xml:space="preserve">
+    <value>默认页面</value>
+  </data>
+  <data name="TabMessaging.Text" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="TabUserProfiles.Text" xml:space="preserve">
+    <value>用户资料</value>
+  </data>
+  <data name="TabSiteAliases.Text" xml:space="preserve">
+    <value>站点别名</value>
+  </data>
+  <data name="TabMore.Text" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="TabBasicSettings.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="TabSynonyms.Text" xml:space="preserve">
+    <value>同义词</value>
+  </data>
+  <data name="TabIgnoreWords.Text" xml:space="preserve">
+    <value>忽略单词</value>
+  </data>
+  <data name="TabCrawling.Text" xml:space="preserve">
+    <value>标签抓取</value>
+  </data>
+  <data name="TabFileExtensions.Text" xml:space="preserve">
+    <value>文件扩展名</value>
+  </data>
+  <data name="plPortalName.Text" xml:space="preserve">
+    <value>站点标题</value>
+  </data>
+  <data name="plPortalName.Help" xml:space="preserve">
+    <value>输入站点标题. 此标题将显示在 Web 浏览器标题栏中，并将成为网站徽标上的工具提示.</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>在这里输入网站的描述.</value>
+  </data>
+  <data name="plKeyWords.Text" xml:space="preserve">
+    <value>关键词</value>
+  </data>
+  <data name="plKeyWords.Help" xml:space="preserve">
+    <value>为您的网站输入一些关键字 (使用英文逗号隔开).  这些关键字被搜索引擎用来帮助索引该网站.</value>
+  </data>
+  <data name="plTimeZone.Text" xml:space="preserve">
+    <value>站点时区</value>
+  </data>
+  <data name="plTimeZone.Help" xml:space="preserve">
+    <value>站点所在区域的时区.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>GUID（全球唯一标识符）</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>全球唯一标识符，可用于识别本网站.</value>
+  </data>
+  <data name="plFooterText.Text" xml:space="preserve">
+    <value>版权</value>
+  </data>
+  <data name="plFooterText.Help" xml:space="preserve">
+    <value>如果主题支持，则此版权文本将显示在您的网站上.</value>
+  </data>
+  <data name="plHomeDirectory.Text" xml:space="preserve">
+    <value>主目录</value>
+  </data>
+  <data name="plHomeDirectory.Help" xml:space="preserve">
+    <value>用于在此站点中存储文件的位置.</value>
+  </data>
+  <data name="plLogoIcon.Text" xml:space="preserve">
+    <value>LOGO 和 图标</value>
+  </data>
+  <data name="plLogo.Text" xml:space="preserve">
+    <value>站点 Logo</value>
+  </data>
+  <data name="plLogo.Help" xml:space="preserve">
+    <value>取决于选择的主题, 此图片通常会显示在页面的左上角.</value>
+  </data>
+  <data name="plFavIcon.Text" xml:space="preserve">
+    <value>Favicon 图标</value>
+  </data>
+  <data name="plFavIcon.Help" xml:space="preserve">
+    <value>所选的图标将应用于网站中的所有页面.</value>
+  </data>
+  <data name="plIconSet.Text" xml:space="preserve">
+    <value>Icon 设置</value>
+  </data>
+  <data name="plIconSet.Help" xml:space="preserve">
+    <value>所选 Icon 图标集将应用于网站上的所有图标.</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SettingsUpdateSuccess" xml:space="preserve">
+    <value>设置已更新.</value>
+  </data>
+  <data name="SettingsError" xml:space="preserve">
+    <value>无法更新设置. 请稍后再试.</value>
+  </data>
+  <data name="SettingsRestoreWarning.Text" xml:space="preserve">
+    <value>您确定要取消更改吗?</value>
+  </data>
+  <data name="valPortalName.ErrorMessage" xml:space="preserve">
+    <value>您必须为您的站点提供标题.</value>
+  </data>
+  <data name="PageOutputSettings.Text" xml:space="preserve">
+    <value>页面输出设置</value>
+  </data>
+  <data name="plPageHeadText.Help" xml:space="preserve">
+    <value>输入任何标签 (i.e. META tags) 将会在页面的 HTML 的 “HEAD” 标记中呈现.</value>
+  </data>
+  <data name="plPageHeadText.Text" xml:space="preserve">
+    <value>HTML 页头标签</value>
+  </data>
+  <data name="plSplashTabId.Text" xml:space="preserve">
+    <value>启动页面</value>
+  </data>
+  <data name="plSplashTabId.Help" xml:space="preserve">
+    <value>您网站的启动页面.</value>
+  </data>
+  <data name="plHomeTabId.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="plHomeTabId.Help" xml:space="preserve">
+    <value>您的网站的首页.</value>
+  </data>
+  <data name="plLoginTabId.Text" xml:space="preserve">
+    <value>登录页面</value>
+  </data>
+  <data name="plLoginTabId.Help" xml:space="preserve">
+    <value>您网站的登录页面. 仅列出具有帐户登录模块的页面.</value>
+  </data>
+  <data name="plUserTabId.Text" xml:space="preserve">
+    <value>用户资料页面</value>
+  </data>
+  <data name="plUserTabId.Help" xml:space="preserve">
+    <value>您的网站的用户配置文件页面.</value>
+  </data>
+  <data name="plRegisterTabId.Help" xml:space="preserve">
+    <value>您的网站的用户注册页面.</value>
+  </data>
+  <data name="plRegisterTabId.Text" xml:space="preserve">
+    <value>注册页面</value>
+  </data>
+  <data name="plSearchTabId.Help" xml:space="preserve">
+    <value>您网站的搜索结果页面.</value>
+  </data>
+  <data name="plSearchTabId.Text" xml:space="preserve">
+    <value>搜索结果页面</value>
+  </data>
+  <data name="pl404TabId.Help" xml:space="preserve">
+    <value>您的网站的404错误页面. 如果用户导航到的网址导致 “页面未找到” 错误，用户将被重定向到此页面.</value>
+  </data>
+  <data name="pl404TabId.Text" xml:space="preserve">
+    <value>404 错误页面</value>
+  </data>
+  <data name="pl500TabId.Help" xml:space="preserve">
+    <value>您的网站的500错误页面.  如果他们正在导航的URL导致意外错误，用户将被重定向到此页面.</value>
+  </data>
+  <data name="pl500TabId.Text" xml:space="preserve">
+    <value>500 错误页面</value>
+  </data>
+  <data name="NoneSpecified.Text" xml:space="preserve">
+    <value>没有指定</value>
+  </data>
+  <data name="plDisablePrivateMessage.Help" xml:space="preserve">
+    <value>选择阻止用户向特定用户或组发送消息. 此限制不适用于管理员或超级用户.</value>
+  </data>
+  <data name="plDisablePrivateMessage.Text" xml:space="preserve">
+    <value>禁用私人信息</value>
+  </data>
+  <data name="plMsgThrottlingInterval.Text" xml:space="preserve">
+    <value>分钟限制间隔</value>
+  </data>
+  <data name="plMsgThrottlingInterval.Help" xml:space="preserve">
+    <value>输入用户可以发送下一条消息的分钟数.零表示没有限制. 此限制不适用于管理员或超级用户.</value>
+  </data>
+  <data name="plMsgRecipientLimit.Text" xml:space="preserve">
+    <value>收件人限制</value>
+  </data>
+  <data name="plMsgRecipientLimit.Help" xml:space="preserve">
+    <value>收件人字段中允许的最大收件人数. 发送给角色的消息被视为单个收件人.</value>
+  </data>
+  <data name="plMsgProfanityFilters.Text" xml:space="preserve">
+    <value>启用不雅词汇过滤器</value>
+  </data>
+  <data name="plMsgProfanityFilters.Help" xml:space="preserve">
+    <value>可以自动将不雅（不恰当）的单词和短语转换为相同的东西. 该列表  Host-&gt;List-&gt;ProfanityFilters 和 Admin-&gt;List-&gt;ProfanityFilters 在页面上管理.</value>
+  </data>
+  <data name="plMsgAllowAttachments.Text" xml:space="preserve">
+    <value>允许附件</value>
+  </data>
+  <data name="plMsgAllowAttachments.Help" xml:space="preserve">
+    <value>选择附件是否可以附加到邮件.</value>
+  </data>
+  <data name="plIncludeAttachments.Text" xml:space="preserve">
+    <value>包含附件</value>
+  </data>
+  <data name="plIncludeAttachments.Help" xml:space="preserve">
+    <value>选择附件是否包含在外发电子邮件中.</value>
+  </data>
+  <data name="plMsgSendEmail.Text" xml:space="preserve">
+    <value>发送邮件</value>
+  </data>
+  <data name="plMsgSendEmail.Help" xml:space="preserve">
+    <value>选择是否将电子邮件发送给每个消息和通知的收件人.</value>
+  </data>
+  <data name="UserProfileSettings.Text" xml:space="preserve">
+    <value>用户资料设置</value>
+  </data>
+  <data name="UserProfileFields.Text" xml:space="preserve">
+    <value>用户资料字段</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Help" xml:space="preserve">
+    <value>为用户配置文件选择默认配置文件可见性模式.</value>
+  </data>
+  <data name="Profile_DefaultVisibility.Text" xml:space="preserve">
+    <value>默认配置文件可见性模式</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Help" xml:space="preserve">
+    <value>选中此框可在用户配置文件页面上显示配置文件可见性控制.</value>
+  </data>
+  <data name="Profile_DisplayVisibility.Text" xml:space="preserve">
+    <value>显示配置文件可见性</value>
+  </data>
+  <data name="redirectOldProfileUrlsLabel.Help" xml:space="preserve">
+    <value>选中此框可强制将重定向旧的配置文件 URL 重定向至自定义 URL。</value>
+  </data>
+  <data name="redirectOldProfileUrlsLabel.Text" xml:space="preserve">
+    <value>重定向旧的配置文件 URL</value>
+  </data>
+  <data name="vanilyUrlPrefixLabel.Help" xml:space="preserve">
+    <value>输入一个字符串用于个性化 URL 前缀.</value>
+  </data>
+  <data name="vanilyUrlPrefixLabel.Text" xml:space="preserve">
+    <value>个性化 URL 前缀</value>
+  </data>
+  <data name="AllUsers.Text" xml:space="preserve">
+    <value>全部用户</value>
+  </data>
+  <data name="MembersOnly.Text" xml:space="preserve">
+    <value>内部使用</value>
+  </data>
+  <data name="AdminOnly.Text" xml:space="preserve">
+    <value>仅限管理员</value>
+  </data>
+  <data name="FriendsAndGroups.Text" xml:space="preserve">
+    <value>朋友和组</value>
+  </data>
+  <data name="VanityUrlExample.Text" xml:space="preserve">
+    <value>myVanityURL</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DataType.Header" xml:space="preserve">
+    <value>数据类型</value>
+  </data>
+  <data name="DefaultVisibility.Header" xml:space="preserve">
+    <value>默认可视性</value>
+  </data>
+  <data name="Required.Header" xml:space="preserve">
+    <value>必须的</value>
+  </data>
+  <data name="Visible.Header" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text" xml:space="preserve">
+    <value>字段名称</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help" xml:space="preserve">
+    <value>输入属性的名称 翻译此页面 在Google翻译中打开.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text" xml:space="preserve">
+    <value>日期格式</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help" xml:space="preserve">
+    <value>选择该字段的数据类型.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text" xml:space="preserve">
+    <value>属性分类</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help" xml:space="preserve">
+    <value>输入此属性的类别.  这将允许相关属性在向用户显示时进行分组.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help" xml:space="preserve">
+    <value>输入此属性的最大长度.  这只适用于特定的数据类型.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text" xml:space="preserve">
+    <value>默认值</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help" xml:space="preserve">
+    <value>可以为此属性提供默认值.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text" xml:space="preserve">
+    <value>验证表达式</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help" xml:space="preserve">
+    <value>您可以提供正则表达式来验证为此属性输入的数据.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text" xml:space="preserve">
+    <value>必需</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help" xml:space="preserve">
+    <value>设置是否需要此属性.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Help" xml:space="preserve">
+    <value>只读配置文件属性可以由管理员编辑，但对用户是只读的.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Text" xml:space="preserve">
+    <value>只读</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help" xml:space="preserve">
+    <value>如果用户可以查看和编辑此属性，或者只有管理员才能看到该属性，请选中此框.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text" xml:space="preserve">
+    <value>查看顺序</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help" xml:space="preserve">
+    <value>输入一个数字以确定该属性的查看顺序或留空以添加.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Help" xml:space="preserve">
+    <value>您可以设置配置文件属性的默认可见性.  编辑他们的配置时，如果用户不修改它，则适用可见性的初始值.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Text" xml:space="preserve">
+    <value>默认可视性</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required" xml:space="preserve">
+    <value>该类别是必需的.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required" xml:space="preserve">
+    <value>该字段名称是必需的.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Required" xml:space="preserve">
+    <value>数据类型是必需的.</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Localization.Help" xml:space="preserve">
+    <value>本地化: 下一步是管理此属性的本地化.  选择您想要更新的语言, 添加新文本或修改现有文本，然后单击更新.</value>
+  </data>
+  <data name="plLocales.Help" xml:space="preserve">
+    <value>选择语言.</value>
+  </data>
+  <data name="plLocales.Text" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="plPropertyHelp.Help" xml:space="preserve">
+    <value>以所选语言输入此属性的帮助.</value>
+  </data>
+  <data name="plPropertyHelp.Text" xml:space="preserve">
+    <value>字段帮助</value>
+  </data>
+  <data name="plPropertyName.Help" xml:space="preserve">
+    <value>以所选语言输入属性名称的文本.</value>
+  </data>
+  <data name="plPropertyName.Text" xml:space="preserve">
+    <value>字段名称</value>
+  </data>
+  <data name="plCategoryName.Help" xml:space="preserve">
+    <value>以所选语言输入分类名称的文本.</value>
+  </data>
+  <data name="plCategoryName.Text" xml:space="preserve">
+    <value>分类名称</value>
+  </data>
+  <data name="plPropertyRequired.Help" xml:space="preserve">
+    <value>当属性为 Required 但不存在时，输入错误消息以显示此字段.</value>
+  </data>
+  <data name="plPropertyRequired.Text" xml:space="preserve">
+    <value>必需的错误消息</value>
+  </data>
+  <data name="plPropertyValidation.Help" xml:space="preserve">
+    <value>输入错误消息以在属性未通过正则表达式验证时显示此字段.</value>
+  </data>
+  <data name="plPropertyValidation.Text" xml:space="preserve">
+    <value>验证错误消息</value>
+  </data>
+  <data name="valPropertyName.ErrorMessage" xml:space="preserve">
+    <value>您需要输入此属性的名称.</value>
+  </data>
+  <data name="PropertyDefinitionDeletedWarning.Text" xml:space="preserve">
+    <value>您确定要删除此配置文件字段吗?</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>配置文件字段已被删除.</value>
+  </data>
+  <data name="DeleteError.Text" xml:space="preserve">
+    <value>无法删除配置文件字段. 请稍后再试.</value>
+  </data>
+  <data name="DuplicateName.Text" xml:space="preserve">
+    <value>此属性已存在.  属性名称必须是唯一的.  请为此属性选择一个不同的名称.</value>
+  </data>
+  <data name="RequiredTextBox.Text" xml:space="preserve">
+    <value>所需的长度必须是大于或等于 0 的整数. 如果您使用 TextBox 字段, 所需的长度必须大于 0.</value>
+  </data>
+  <data name="portalAliasModeButtonListLabel.Help" xml:space="preserve">
+    <value>此设置决定站点如何响应定义为别名的 URL, 但不是默认别名.  规范(别名 URL 将作为规范URL进行处理), 重定向(重定向到默认别名) or 无 (没有采取额外的行动).</value>
+  </data>
+  <data name="portalAliasModeButtonListLabel.Text" xml:space="preserve">
+    <value>网站域名映射模式</value>
+  </data>
+  <data name="plAutoAddPortalAlias.Help" xml:space="preserve">
+    <value>此设置确定站点如何响应映射到站点但不在别名列表中的 URL.  此设置仅在单站点配置中有效. 选择此选项可自动映射新的 URL.</value>
+  </data>
+  <data name="plAutoAddPortalAlias.Text" xml:space="preserve">
+    <value>自动添加网站别名</value>
+  </data>
+  <data name="InvalidAlias.Text" xml:space="preserve">
+    <value>网站别名无效. 请选择其他网站别名.</value>
+  </data>
+  <data name="DuplicateAlias.Text" xml:space="preserve">
+    <value>您指定的站点别名已存在. 请选择其他网站别名.</value>
+  </data>
+  <data name="SetPrimary.Text" xml:space="preserve">
+    <value>设为主要</value>
+  </data>
+  <data name="UnassignPrimary.Text" xml:space="preserve">
+    <value>取消分配主要</value>
+  </data>
+  <data name="UrlMappingSettings.Text" xml:space="preserve">
+    <value>URL 地图</value>
+  </data>
+  <data name="Alias.Header" xml:space="preserve">
+    <value>域名</value>
+  </data>
+  <data name="Browser.Header" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="Theme.Header" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Primary.Header" xml:space="preserve">
+    <value>主要的</value>
+  </data>
+  <data name="Canonical.Text" xml:space="preserve">
+    <value>规范</value>
+  </data>
+  <data name="Redirect.Text" xml:space="preserve">
+    <value>重定向</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SiteAliases.Text" xml:space="preserve">
+    <value>站点别名</value>
+  </data>
+  <data name="SiteAlias.Text" xml:space="preserve">
+    <value>站点别名</value>
+  </data>
+  <data name="Language.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Browser.Text" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="Theme.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="SiteAliasUpdateSuccess.Text" xml:space="preserve">
+    <value>网站别名已被更新.</value>
+  </data>
+  <data name="SiteAliasCreateSuccess.Text" xml:space="preserve">
+    <value>站点别名已被添加.</value>
+  </data>
+  <data name="SiteAliasDeletedWarning.Text" xml:space="preserve">
+    <value>您确定要删除此站点别名吗?</value>
+  </data>
+  <data name="SiteAliasDeleteSuccess.Text" xml:space="preserve">
+    <value>网站别名已被删除.</value>
+  </data>
+  <data name="SiteAliasDeleteError.Text" xml:space="preserve">
+    <value>无法删除站点别名. 请稍后再试.</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
+    <value>输入要包含在索引中的最大字数.</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
+    <value>最大字数</value>
+  </data>
+  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
+    <value>输入要包含在索引中的最小字数.</value>
+  </data>
+  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
+    <value>最小字数</value>
+  </data>
+  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
+    <value>索引字的最大长度是必需的. 整数且必须大于最小长度.</value>
+  </data>
+  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
+    <value>索引字的最小长度是必需的. 整数且必须大于0.</value>
+  </data>
+  <data name="lblCustomAnalyzer.Help" xml:space="preserve">
+    <value>如果这是空的, 系统将使用标准分析器来索引内容. 如果你想使用自定义分析器, 请在此字段中键入分析仪类的全名.  注意: 如果您希望现有内容使用新的分析器进行索引, 你必须访问每个站点的Persona Bar Settings -&gt; Site Settings -&gt; Search 然后 点击 "重建内容索引" 按钮.</value>
+  </data>
+  <data name="lblCustomAnalyzer.Text" xml:space="preserve">
+    <value>定制分析器类型</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Help" xml:space="preserve">
+    <value>选中此框可返回单词内的搜索条件，而不仅仅是单词的开头. 警告: 启用通配符搜索可能会导致性能问题.</value>
+  </data>
+  <data name="lblAllowLeadingWildcard.Text" xml:space="preserve">
+    <value>启用部分词搜索 (Slow)</value>
+  </data>
+  <data name="SearchPriorities.Text" xml:space="preserve">
+    <value>搜索优先级</value>
+  </data>
+  <data name="SearchIndex.Text" xml:space="preserve">
+    <value>所搜索引</value>
+  </data>
+  <data name="lblAuthorBoost.Help" xml:space="preserve">
+    <value>作者 Boost 值与编写索引时的作者相关联. 值越高, 该字段将用于确定结果的顺序越靠前.</value>
+  </data>
+  <data name="lblAuthorBoost.Text" xml:space="preserve">
+    <value>作者 Boost</value>
+  </data>
+  <data name="lblContentBoost.Help" xml:space="preserve">
+    <value>内容 boost 值与索引内容相关联.  值越高, 该字段将用于确定结果的顺序越靠前.</value>
+  </data>
+  <data name="lblContentBoost.Text" xml:space="preserve">
+    <value>内容 Boost</value>
+  </data>
+  <data name="lblDescriptionBoost.Help" xml:space="preserve">
+    <value>描述 Boost 值 在索引时与描述相关联.  值越高, 该字段将用于确定结果的顺序越靠前.</value>
+  </data>
+  <data name="lblDescriptionBoost.Text" xml:space="preserve">
+    <value>描述 Boost</value>
+  </data>
+  <data name="lblTagBoost.Help" xml:space="preserve">
+    <value>标签 boost 值 在索引时与标签相关联. 值越高, 该字段将用于确定结果的顺序越靠前.</value>
+  </data>
+  <data name="lblTagBoost.Text" xml:space="preserve">
+    <value>标签 Boost</value>
+  </data>
+  <data name="lblTitleBoost.Help" xml:space="preserve">
+    <value>标题 boost 值与标题相关联，因而它被编入索引.  值越高, 该字段将用于确定结果的顺序越靠前.</value>
+  </data>
+  <data name="lblTitleBoost.Text" xml:space="preserve">
+    <value>标题 Boost</value>
+  </data>
+  <data name="lblSearchIndexPath.Help" xml:space="preserve">
+    <value>搜索索引存储的位置.  可以通过在数据库中创建主机设置 “Search_IndexFolder” 来手动更改此位置.  建议在进行此更改之前停止应用程序池. 来自旧文件夹的内容必须手动复制到新位置，否则必须触发手动重建索引.</value>
+  </data>
+  <data name="lblSearchIndexPath.Text" xml:space="preserve">
+    <value>搜索索引路径</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
+    <value>搜索索引数据库文件的总大小.</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
+    <value>搜索索引大小</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
+    <value>搜索索引文件中活动文档的数量</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
+    <value>活动文档</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
+    <value>搜索索引文件中已删除文档的数量</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
+    <value>已删除的文件</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
+    <value>上次修改搜索索引文件的时间.</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
+    <value>上次修改时间</value>
+  </data>
+  <data name="MessageIndexWarning.Text" xml:space="preserve">
+    <value>警告:压缩或重建应该在非高峰时段完成，因为这个过程可能会占用大量CPU.</value>
+  </data>
+  <data name="CompactIndex.Text" xml:space="preserve">
+    <value>紧凑型索引</value>
+  </data>
+  <data name="ReindexContent.Text" xml:space="preserve">
+    <value>重建内容索引</value>
+  </data>
+  <data name="ReindexHostContent.Text" xml:space="preserve">
+    <value>重建主机内容索引</value>
+  </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>重建索引将导致索引存储中的现有内容被删除. 重建索引由搜索爬虫完成，并取决于他们的调度频率. 你确定你要继续吗?</value>
+  </data>
+  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>压缩索引可能会占用CPU，并且可能需要当前索引存储空间的两倍才能进行处理. 压缩由网站搜索爬虫完成，并取决于其调度频率. 你确定你要继续吗?</value>
+  </data>
+  <data name="SynonymsTagDuplicated.Text" xml:space="preserve">
+    <value>已经被用在另一个同义词组中.</value>
+  </data>
+  <data name="Synonyms.Text" xml:space="preserve">
+    <value>同义词</value>
+  </data>
+  <data name="SynonymsGroup.Header" xml:space="preserve">
+    <value>同义词组</value>
+  </data>
+  <data name="SynonymsGroupUpdateSuccess.Text" xml:space="preserve">
+    <value>同义词组已更新.</value>
+  </data>
+  <data name="SynonymsGroupCreateSuccess.Text" xml:space="preserve">
+    <value>同义词组已添加.</value>
+  </data>
+  <data name="SynonymsGroupDeletedWarning.Text" xml:space="preserve">
+    <value>你确定要删除这个同义词组吗?</value>
+  </data>
+  <data name="SynonymsGroupDeleteSuccess.Text" xml:space="preserve">
+    <value>同义词组已被删除.</value>
+  </data>
+  <data name="SynonymsGroupDeleteError.Text" xml:space="preserve">
+    <value>无法删除同义词组. 请稍后再试.</value>
+  </data>
+  <data name="IgnoreWords.Text" xml:space="preserve">
+    <value>忽略单词</value>
+  </data>
+  <data name="IgnoreWordsUpdateSuccess.Text" xml:space="preserve">
+    <value>忽略词已更新.</value>
+  </data>
+  <data name="IgnoreWordsCreateSuccess.Text" xml:space="preserve">
+    <value>忽略单词已添加.</value>
+  </data>
+  <data name="IgnoreWordsDeletedWarning.Text" xml:space="preserve">
+    <value>你确定要删除忽略的单词吗?</value>
+  </data>
+  <data name="IgnoreWordsDeleteSuccess.Text" xml:space="preserve">
+    <value>忽略单词已被删除.</value>
+  </data>
+  <data name="IgnoreWordsDeleteError.Text" xml:space="preserve">
+    <value>无法删除忽略的单词. 请稍后再试.</value>
+  </data>
+  <data name="HtmlEditor.Text" xml:space="preserve">
+    <value>Html 编辑器管理器</value>
+  </data>
+  <data name="OpenHtmlEditor.Text" xml:space="preserve">
+    <value>打开 HTML 编辑器管理器</value>
+  </data>
+  <data name="HtmlEditorWarning.Text" xml:space="preserve">
+    <value>Html 编辑器管理器允许您轻松更改网站的 HTML 编辑器或配置设置.</value>
+  </data>
+  <data name="BackToSiteBehavior.Text" xml:space="preserve">
+    <value>返回到站点行为</value>
+  </data>
+  <data name="BackToLanguages.Text" xml:space="preserve">
+    <value>返回到语言</value>
+  </data>
+  <data name="NativeName.Text" xml:space="preserve">
+    <value>本地名称</value>
+  </data>
+  <data name="EnglishName.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="LanguageSettings.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Languages.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="systemDefaultLabel.Help" xml:space="preserve">
+    <value>系统默认语言是应用程序在没有其他语言可用的情况下使用的语言.  这是最终的回退.</value>
+  </data>
+  <data name="systemDefaultLabel.Text" xml:space="preserve">
+    <value>系统默认</value>
+  </data>
+  <data name="siteDefaultLabel.Help" xml:space="preserve">
+    <value>在此选择网站的默认语言.  如果语言尚未启用,它会自动启用.  内容本地化启用后，默认语言无法更改.</value>
+  </data>
+  <data name="siteDefaultLabel.Text" xml:space="preserve">
+    <value>站点默认</value>
+  </data>
+  <data name="plUrl.Help" xml:space="preserve">
+    <value>选中此框可启用URL中的语言参数.</value>
+  </data>
+  <data name="plUrl.Text" xml:space="preserve">
+    <value>在URL中启用语言参数</value>
+  </data>
+  <data name="detectBrowserLable.Help" xml:space="preserve">
+    <value>选中此框可检测用户浏览器上选择的语言，并将网站切换为该语言.</value>
+  </data>
+  <data name="detectBrowserLable.Text" xml:space="preserve">
+    <value>启用浏览器语言检测</value>
+  </data>
+  <data name="allowUserCulture.Help" xml:space="preserve">
+    <value>选中此框以允许网站用户为接口选择不同于用于内容的语言.</value>
+  </data>
+  <data name="allowUserCulture.Text" xml:space="preserve">
+    <value>用户可以选择界面语言</value>
+  </data>
+  <data name="NeutralCulture.Text" xml:space="preserve">
+    <value>Neutral Culture</value>
+  </data>
+  <data name="Culture.Header" xml:space="preserve">
+    <value>文化</value>
+  </data>
+  <data name="Enabled.Header.Text" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="fallBackLabel.Help" xml:space="preserve">
+    <value>如果所选语言不可用，请选择要使用的回退语言.</value>
+  </data>
+  <data name="fallBackLabel.Text" xml:space="preserve">
+    <value>备用语言</value>
+  </data>
+  <data name="enableLanguageLabel.Text" xml:space="preserve">
+    <value>启用语言</value>
+  </data>
+  <data name="languageLabel.Help" xml:space="preserve">
+    <value>选择语言.</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguageUpdateSuccess.Text" xml:space="preserve">
+    <value>该语言已更新.</value>
+  </data>
+  <data name="LanguageCreateSuccess.Text" xml:space="preserve">
+    <value>该语言已添加.</value>
+  </data>
+  <data name="DefaultLanguage.Text" xml:space="preserve">
+    <value>*注意: 这种语言是网站默认</value>
+  </data>
+  <data name="plEnableContentLocalization.Help" xml:space="preserve">
+    <value>选中此框可允许管理员为其网站启用内容本地化.</value>
+  </data>
+  <data name="plEnableContentLocalization.Text" xml:space="preserve">
+    <value>允许内容本地化</value>
+  </data>
+  <data name="GlobalSetting.Text" xml:space="preserve">
+    <value>这是一个全局的设置。此设置的更改将影响您的所有网站.</value>
+  </data>
+  <data name="CreateLanguagePack.Text" xml:space="preserve">
+    <value>创建语言包</value>
+  </data>
+  <data name="ResourceFileVerifier.Text" xml:space="preserve">
+    <value>资源文件验证程序</value>
+  </data>
+  <data name="VerifyLanguageResources.Text" xml:space="preserve">
+    <value>验证语言资源文件</value>
+  </data>
+  <data name="MissingFiles.Text" xml:space="preserve">
+    <value>缺少资源文件: </value>
+  </data>
+  <data name="MissingEntries.Text" xml:space="preserve">
+    <value>缺少条目的文件: </value>
+  </data>
+  <data name="ObsoleteEntries.Text" xml:space="preserve">
+    <value>具有过时条目的文件: </value>
+  </data>
+  <data name="ControlTitle_verify.Text" xml:space="preserve">
+    <value>资源文件验证程序</value>
+  </data>
+  <data name="OldFiles.Text" xml:space="preserve">
+    <value>早于系统默认值的文件: </value>
+  </data>
+  <data name="DuplicateEntries.Text" xml:space="preserve">
+    <value>具有重复条目的文件: </value>
+  </data>
+  <data name="ErrorFiles.Text" xml:space="preserve">
+    <value>格式错误的资源文件: </value>
+  </data>
+  <data name="LanguagePackCreateSuccess.Text" xml:space="preserve">
+    <value>语言包已创建并可以在 {0}/Install/Language 文件夹中找到 .</value>
+  </data>
+  <data name="LanguagePackCreateFailure.Text" xml:space="preserve">
+    <value>您必须先创建资源文件，然后才能创建语言包.</value>
+  </data>
+  <data name="lbLocale.Text" xml:space="preserve">
+    <value>资源区域设置</value>
+  </data>
+  <data name="lbLocale.Help" xml:space="preserve">
+    <value>选择您想要为其生成语言包的语言环境</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>资源包类型</value>
+  </data>
+  <data name="lblType.Help" xml:space="preserve">
+    <value>选择要生成的资源包的类型.</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>资源包名称</value>
+  </data>
+  <data name="lblName.Help" xml:space="preserve">
+    <value>生成的资源包的名称可以修改.  注意名称的一部分是固定的.</value>
+  </data>
+  <data name="valName.ErrorMessage" xml:space="preserve">
+    <value>资源包名称是必需的.</value>
+  </data>
+  <data name="SelectModules.Text" xml:space="preserve">
+    <value>在资源包中包含模块</value>
+  </data>
+  <data name="Core.LangPackType" xml:space="preserve">
+    <value>核心</value>
+  </data>
+  <data name="Module.LangPackType" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="Provider.LangPackType" xml:space="preserve">
+    <value>提供商</value>
+  </data>
+  <data name="Full.LangPackType" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="AuthSystem.LangPackType" xml:space="preserve">
+    <value>身份验证系统</value>
+  </data>
+  <data name="ModuleRequired.Error" xml:space="preserve">
+    <value>请从列表中选择至少一个模块.</value>
+  </data>
+  <data name="BackToSiteSettings.Text" xml:space="preserve">
+    <value>返回到站点设置</value>
+  </data>
+  <data name="DefaultValue.Text" xml:space="preserve">
+    <value>默认值</value>
+  </data>
+  <data name="Global.Text" xml:space="preserve">
+    <value>全局</value>
+  </data>
+  <data name="HighlightPendingTranslations.Text" xml:space="preserve">
+    <value>突出显示待定翻译</value>
+  </data>
+  <data name="LanguageEditor.Header" xml:space="preserve">
+    <value>翻译资源文件</value>
+  </data>
+  <data name="LocalizedValue.Text" xml:space="preserve">
+    <value>本地值</value>
+  </data>
+  <data name="ResourceFile.Text" xml:space="preserve">
+    <value>资源文件</value>
+  </data>
+  <data name="ResourceFolder.Text" xml:space="preserve">
+    <value>资源文件夹</value>
+  </data>
+  <data name="ResourceName.Text" xml:space="preserve">
+    <value>资源名称</value>
+  </data>
+  <data name="SaveTranslationsToFile.Text" xml:space="preserve">
+    <value>保存翻译到文件</value>
+  </data>
+  <data name="GlobalRoles.Text" xml:space="preserve">
+    <value>全局角色</value>
+  </data>
+  <data name="AllRoles.Text" xml:space="preserve">
+    <value>所有角色</value>
+  </data>
+  <data name="RoleName.Header" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Select.Header" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Translators.Text" xml:space="preserve">
+    <value>翻译者</value>
+  </data>
+  <data name="translatorsLabel.Help" xml:space="preserve">
+    <value>所选角色将被授予对该语言的所有新页面和本地化模块的显式编辑权限.</value>
+  </data>
+  <data name="GlobalResources.Text" xml:space="preserve">
+    <value>全局资源</value>
+  </data>
+  <data name="LocalResources.Text" xml:space="preserve">
+    <value>本地资源</value>
+  </data>
+  <data name="SiteTemplates.Text" xml:space="preserve">
+    <value>站点模板</value>
+  </data>
+  <data name="Exceptions.Text" xml:space="preserve">
+    <value>例外</value>
+  </data>
+  <data name="HostSkins.Text" xml:space="preserve">
+    <value>主机主题</value>
+  </data>
+  <data name="PortalSkins.Text" xml:space="preserve">
+    <value>站点主题</value>
+  </data>
+  <data name="Template.Text" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Updated.Text" xml:space="preserve">
+    <value>文件 {0} 已保存.</value>
+  </data>
+  <data name="ResourceUpdated.Text" xml:space="preserve">
+    <value>资源文件已更新.</value>
+  </data>
+  <data name="InvalidLocale.ErrorMessage" xml:space="preserve">
+    <value>当前网站不支持此区域设置 ({0}).</value>
+  </data>
+  <data name="MicroServices.Text" xml:space="preserve">
+    <value>微服务</value>
+  </data>
+  <data name="MicroServicesDescription.Text" xml:space="preserve">
+    <value>警告: 一旦启用微服务, 您需要联系支持才能禁用它.</value>
+  </data>
+  <data name="SaveConfirm.Text" xml:space="preserve">
+    <value>您确定要保存更改吗?</value>
+  </data>
+  <data name="MessageReIndexWarning.Text" xml:space="preserve">
+    <value>重建索引从索引存储中删除现有内容，然后重建索引所有内容. 重建编制索引是作为搜索爬虫计划任务的一部分完成的. 要立即重建索引, 搜索爬虫应该从调度程序手动运行.</value>
+  </data>
+  <data name="CurrentSiteDefault.Text" xml:space="preserve">
+    <value>当前网站默认:</value>
+  </data>
+  <data name="CurrentSiteDefault.Help" xml:space="preserve">
+    <value>一旦启用本地化内容, 默认网站文化将被永久设置并且不能更改. 如果您想更改当前的网站默认值，请立即单击取消.</value>
+  </data>
+  <data name="AllPagesTranslatable.Text" xml:space="preserve">
+    <value>使所有页面可翻译: </value>
+  </data>
+  <data name="AllPagesTranslatable.Help" xml:space="preserve">
+    <value>选中此框可使所有默认语言的页面都可翻译，并为每种启用的语言创建所有可翻译页面的副本.</value>
+  </data>
+  <data name="EnableLocalizedContent.Text" xml:space="preserve">
+    <value>启用本地化内容</value>
+  </data>
+  <data name="EnableLocalizedContentHelpText.Text" xml:space="preserve">
+    <value>启用本地化内容可以让您提供翻译后的模块内容, 并显示翻译后的静态文本. 一旦启用本地化事件, 默认网站文化将永久设置, &lt;strong&gt;不能更改&lt;/ strong&gt;.</value>
+  </data>
+  <data name="EnableLocalizedContentClickCancel.Text" xml:space="preserve">
+    <value>如果您想更改当前的网站默认值，请立即单击取消.</value>
+  </data>
+  <data name="TranslationProgressBarText.Text" xml:space="preserve">
+    <value>正在为每种语言创建 [number] 个新页面. 请等待您的本地化页面生成...</value>
+  </data>
+  <data name="TotalProgress.Text" xml:space="preserve">
+    <value>总进展 [number]%</value>
+  </data>
+  <data name="TotalLanguages.Text" xml:space="preserve">
+    <value>语言总数 [number]</value>
+  </data>
+  <data name="Progress.Text" xml:space="preserve">
+    <value>进度 [number]%</value>
+  </data>
+  <data name="ElapsedTime.Text" xml:space="preserve">
+    <value>已用时间: </value>
+  </data>
+  <data name="ProcessingPage.Text" xml:space="preserve">
+    <value>{0}: Page {1} of {2} - {3}</value>
+  </data>
+  <data name="MessageCompactIndexWarning.Text" xml:space="preserve">
+    <value>压缩索引从索引存储中删除项目回收空间. 只有在索引存储中有许多“已删除文档”时才建议使用压缩. 在处理期间，压缩可能需要两倍于当前索引存储的大小.</value>
+  </data>
+  <data name="cmdCreateLanguage.Text" xml:space="preserve">
+    <value>添加新的语言</value>
+  </data>
+  <data name="cmdAddWord.Text" xml:space="preserve">
+    <value>添加词语</value>
+  </data>
+  <data name="cmdAddField.Text" xml:space="preserve">
+    <value>添加字段</value>
+  </data>
+  <data name="cmdAddAlias.Text" xml:space="preserve">
+    <value>添加别名</value>
+  </data>
+  <data name="cmdAddGroup.Text" xml:space="preserve">
+    <value>添加组</value>
+  </data>
+  <data name="DisableLocalizedContent.Text" xml:space="preserve">
+    <value>禁用本地化内容</value>
+  </data>
+  <data name="TranslatePageContent.Text" xml:space="preserve">
+    <value>翻译页面内容</value>
+  </data>
+  <data name="AddAllUnlocalizedPages.Text" xml:space="preserve">
+    <value>添加所有未本地化的页面</value>
+  </data>
+  <data name="ViewPage.Text" xml:space="preserve">
+    <value>[ 查看页面 ]</value>
+  </data>
+  <data name="EditPageSettings.Text" xml:space="preserve">
+    <value>[ 编辑页面设置 ]</value>
+  </data>
+  <data name="ActivatePages.Text" xml:space="preserve">
+    <value>以这种语言激活页面: </value>
+  </data>
+  <data name="ActivatePages.Help" xml:space="preserve">
+    <value>必须先启用一种语言，然后才能将其禁用.</value>
+  </data>
+  <data name="MarkAllPagesAsTranslated.Text" xml:space="preserve">
+    <value>将所有页面标记为已翻译</value>
+  </data>
+  <data name="EraseAllLocalizedPages.Text" xml:space="preserve">
+    <value>清除所有本地化页面</value>
+  </data>
+  <data name="PublishTranslatedPages.Text" xml:space="preserve">
+    <value>发布所有页面</value>
+  </data>
+  <data name="UnpublishTranslatedPages.Text" xml:space="preserve">
+    <value>取消发布所有页面</value>
+  </data>
+  <data name="PagesToTranslate.Text" xml:space="preserve">
+    <value>翻译页面:</value>
+  </data>
+  <data name="plImprovementProgram.Help" xml:space="preserve">
+    <value>选中此框以参与DNN改进计划. &lt;a href="http://www.dnnsoftware.com/dnn-improvement-program" target="_blank"&gt; 了解更多 &lt;/a&gt;.</value>
+  </data>
+  <data name="plImprovementProgram.Text" xml:space="preserve">
+    <value>参与DNN改进计划:</value>
+  </data>
+  <data name="plUpgrade.Text" xml:space="preserve">
+    <value>检查软件升级</value>
+  </data>
+  <data name="plUpgrade.Help" xml:space="preserve">
+    <value>选中此框可让应用程序检查是否有可用的升级.</value>
+  </data>
+  <data name="Pages.Header" xml:space="preserve">
+    <value>页面</value>
+  </data>
+  <data name="Translated.Header" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="Active.Header" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="PropertyDefinitionUpdateSuccess.Text" xml:space="preserve">
+    <value>属性定义已更新.</value>
+  </data>
+  <data name="ViewOrderUpdateSuccess.Text" xml:space="preserve">
+    <value>查看顺序已更新.</value>
+  </data>
+  <data name="SaveOrCancelWarning.Text" xml:space="preserve">
+    <value>您有未保存的更改. 请先保存或取消您的更改.</value>
+  </data>
+  <data name="DeactivateLanguageWarning.Text" xml:space="preserve">
+    <value>你确定要停用 {0} 吗?</value>
+  </data>
+  <data name="DeletedAllLocalizedPages.Text" xml:space="preserve">
+    <value>本地化页面已成功删除.</value>
+  </data>
+  <data name="EraseTranslatedPagesWarning.Text" xml:space="preserve">
+    <value>您即将永久移除 '{0}' 语言的所有翻译. 你确定你要继续吗?</value>
+  </data>
+  <data name="Mode.HelpText" xml:space="preserve">
+    <value>选择全局编辑给定语言的基本文件; 另一个选项只会影响选定的网站.</value>
+  </data>
+  <data name="Mode.Label" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="PagesSuccessfullyLocalized.Text" xml:space="preserve">
+    <value>页面成功本地化.</value>
+  </data>
+  <data name="PublishedAllTranslatedPages.Text" xml:space="preserve">
+    <value>页面已成功发布.</value>
+  </data>
+  <data name="UnPublishedAllTranslatedPages.Text" xml:space="preserve">
+    <value>页面已成功取消发布.</value>
+  </data>
+  <data name="SelectResourcePlaceholder.Text" xml:space="preserve">
+    <value>-- 选择 --</value>
+  </data>
+  <data name="PagesSuccessfullyTranslated.Text" xml:space="preserve">
+    <value>页面已成功翻译.</value>
+  </data>
+  <data name="DisableLanguageWarning.Text" xml:space="preserve">
+    <value>你确定要禁用该语言吗 {0}</value>
+  </data>
+  <data name="MakeNeutralWarning.Text" xml:space="preserve">
+    <value>这将删除页面的所有翻译版本. 只有页面的默认文化版本将保留. 你确定你要这么做吗?</value>
+  </data>
+  <data name="SiteSelectionLabel.Text" xml:space="preserve">
+    <value>编辑站点</value>
+  </data>
+  <data name="LanguageSelectionLabel.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="ListEntryText.Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ListEntryValue.Text" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="NoData.Text" xml:space="preserve">
+    <value>无记录可显示</value>
+  </data>
+  <data name="cmdAddEntry.Text" xml:space="preserve">
+    <value>添加条目</value>
+  </data>
+  <data name="ListEntries.Text" xml:space="preserve">
+    <value>列表条目</value>
+  </data>
+  <data name="ListEntries.Help" xml:space="preserve">
+    <value>管理列表条目: 属性详情已更新. 该属性是一个 List 类型属性. 下一步是定义列表条目.</value>
+  </data>
+  <data name="ListEntryCreateSuccess.Text" xml:space="preserve">
+    <value>列表条目已创建.</value>
+  </data>
+  <data name="ListEntryUpdateSuccess.Text" xml:space="preserve">
+    <value>列表条目已更新.</value>
+  </data>
+  <data name="ListEntryDeleteSuccess.Text" xml:space="preserve">
+    <value>列表条目已被删除.</value>
+  </data>
+  <data name="ListEntryDeleteError.Text" xml:space="preserve">
+    <value>无法删除列表条目. 请稍后再试.</value>
+  </data>
+  <data name="ListEntryDeletedWarning.Text" xml:space="preserve">
+    <value>您确定要删除列表条目吗?</value>
+  </data>
+  <data name="InvalidEntryText.Text" xml:space="preserve">
+    <value>文本是必需的</value>
+  </data>
+  <data name="InvalidEntryValue.Text" xml:space="preserve">
+    <value>值是必需的</value>
+  </data>
+  <data name="EnableSortOrder.Text" xml:space="preserve">
+    <value>启用排序顺序</value>
+  </data>
+  <data name="EnableSortOrder.Help" xml:space="preserve">
+    <value>选中此框可启用此列表中条目的自定义排序.</value>
+  </data>
+  <data name="BrowseAction.Text" xml:space="preserve">
+    <value>按 {save|[ENTER]} 保存,  或按{cancel|[ESC]} 取消</value>
+  </data>
+  <data name="BrowseButton.Text" xml:space="preserve">
+    <value>浏览文件系统</value>
+  </data>
+  <data name="DefaultImageTitle.Text" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="DragDefault.Text" xml:space="preserve">
+    <value>拖放文件或选择选项</value>
+  </data>
+  <data name="DragOver.Text" xml:space="preserve">
+    <value>拖放文件</value>
+  </data>
+  <data name="File.Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Folder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="LinkButton.Text" xml:space="preserve">
+    <value>输入 URL 链接</value>
+  </data>
+  <data name="LinkInputAction.Text" xml:space="preserve">
+    <value>按 {save|[ENTER]} 以保存, 或按 {cancel|[ESC]} 以取消</value>
+  </data>
+  <data name="LinkInputPlaceholder.Text" xml:space="preserve">
+    <value>http://example.com/imagename.jpg</value>
+  </data>
+  <data name="LinkInputTitle.Text" xml:space="preserve">
+    <value>URL 链接</value>
+  </data>
+  <data name="NotSpecified.Text" xml:space="preserve">
+    <value>&lt;没有指定&gt;</value>
+  </data>
+  <data name="SearchFilesPlaceHolder.Text" xml:space="preserve">
+    <value>搜索文件...</value>
+  </data>
+  <data name="SearchFoldersPlaceHolder.Text" xml:space="preserve">
+    <value>搜索文件夹...</value>
+  </data>
+  <data name="UploadButton.Text" xml:space="preserve">
+    <value>上传一个文件</value>
+  </data>
+  <data name="UploadComplete.Text" xml:space="preserve">
+    <value>上传完成</value>
+  </data>
+  <data name="UploadDefault.Text" xml:space="preserve">
+    <value>myImage.jpg</value>
+  </data>
+  <data name="UploadFailed.Text" xml:space="preserve">
+    <value>上传失败</value>
+  </data>
+  <data name="Uploading.Text" xml:space="preserve">
+    <value>正在上传...</value>
+  </data>
+  <data name="WrongFormat.Text" xml:space="preserve">
+    <value>错误的格式</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>主机</value>
+  </data>
+</root>
