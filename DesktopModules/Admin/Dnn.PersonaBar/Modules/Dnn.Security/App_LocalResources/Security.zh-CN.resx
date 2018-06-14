@@ -133,7 +133,7 @@
     <value>编辑过滤器</value>
   </data>
   <data name="saveRule.Text" xml:space="preserve">
-    <value>Update Filter</value>
+    <value>更新过滤器</value>
   </data>
   <data name="Actions.Header" xml:space="preserve">
     <value>操作</value>
@@ -145,7 +145,7 @@
     <value>允许</value>
   </data>
   <data name="DenyIP.Text" xml:space="preserve">
-    <value>Deny</value>
+    <value>拒绝</value>
   </data>
   <data name="CannotDelete.Text" xml:space="preserve">
     <value>您不能删除该规则，因为这会导致当前IP地址被锁定。</value>
@@ -154,88 +154,88 @@
     <value>登录设置</value>
   </data>
   <data name="TabMoreSecuritySettings.Text" xml:space="preserve">
-    <value>MORE SECURITY SETTINGS</value>
+    <value>更多安全设置</value>
   </data>
   <data name="TabMore.Text" xml:space="preserve">
-    <value>More</value>
+    <value>更多</value>
   </data>
   <data name="TabSecurityBulletins.Text" xml:space="preserve">
-    <value>Security Bulletins</value>
+    <value>安全公告</value>
   </data>
   <data name="TabSecurityAnalyzer.Text" xml:space="preserve">
-    <value>Security Analyzer</value>
+    <value>安全分析器</value>
   </data>
   <data name="TabSslSettings.Text" xml:space="preserve">
     <value>SSL 设置</value>
   </data>
   <data name="TabMemberAccounts.Text" xml:space="preserve">
-    <value>Member Accounts</value>
+    <value>会员帐户</value>
   </data>
   <data name="TabBasicLoginSettings.Text" xml:space="preserve">
     <value>基本登录设置</value>
   </data>
   <data name="TabMemberSettings.Text" xml:space="preserve">
-    <value>MEMBER MANAGEMENT</value>
+    <value>会员管理</value>
   </data>
   <data name="TabRegistrationSettings.Text" xml:space="preserve">
-    <value>REGISTRATION SETTINGS</value>
+    <value>注册设置</value>
   </data>
   <data name="TabIpFilters.Text" xml:space="preserve">
     <value>登录 IP 过滤器</value>
   </data>
   <data name="DefaultAuthProvider.Text" xml:space="preserve">
-    <value>Default Authentication Provider</value>
+    <value>默认身份验证提供程序</value>
   </data>
   <data name="DefaultAuthProvider.Help" xml:space="preserve">
-    <value>You can select a default authentication provider for user login.  Only providers that support forms authentication can be selected.</value>
+    <value>您可以选择用户登录的默认身份验证提供程序。只能选择支持表单身份验证的提供者。</value>
   </data>
   <data name="plAdministrator.Text" xml:space="preserve">
-    <value>Primary Administrator</value>
+    <value>主要管理员</value>
   </data>
   <data name="plAdministrator.Help" xml:space="preserve">
-    <value>The Primary Administrator who will receive email notification of member activities.</value>
+    <value>主要管理员将接收成员活动的电子邮件通知。</value>
   </data>
   <data name="Redirect_AfterLogin.Help" xml:space="preserve">
-    <value>Optionally select the page that users will be redirected to upon successful login.</value>
+    <value>（可选）选择用户在成功登录后将被重定向到的页面。</value>
   </data>
   <data name="Redirect_AfterLogin.Text" xml:space="preserve">
-    <value>Redirect After Login</value>
+    <value>登录后重定向</value>
   </data>
   <data name="Redirect_AfterLogout.Help" xml:space="preserve">
-    <value>Optionally select the page that users will be redirected to upon logout.</value>
+    <value>可以选择在注销时用户将被重定向到的页面。</value>
   </data>
   <data name="Redirect_AfterLogout.Text" xml:space="preserve">
-    <value>Redirect After Logout</value>
+    <value>注销后重定向</value>
   </data>
   <data name="Security_RequireValidProfileAtLogin.Help" xml:space="preserve">
-    <value>Check this box to require users to update their profile prior to login if the fields required for a valid profile have been modified.</value>
+    <value>如果修改了有效配置文件所需的字段，请选中此框以要求用户在登录之前更新其配置文件。</value>
   </data>
   <data name="Security_RequireValidProfileAtLogin.Text" xml:space="preserve">
-    <value>Require a valid Profile for Login</value>
+    <value>需要有效的配置文件才能登录</value>
   </data>
   <data name="Security_CaptchaLogin.Help" xml:space="preserve">
-    <value>Check this box to use CAPTCHA for associating logins. E.g. OpenID, LiveID, CardSpace</value>
+    <value>选中此框以使用CAPTCHA关联登录。例如。 OpenID，LiveID，CardSpace</value>
   </data>
   <data name="Security_CaptchaLogin.Text" xml:space="preserve">
-    <value>Use CAPTCHA for Associating Logins</value>
+    <value>使用CAPTCHA进行关联登录</value>
   </data>
   <data name="Security_CaptchaRetrivePassword.Help" xml:space="preserve">
-    <value>Check this box to use CAPTCHA when retrieving passwords.</value>
+    <value>选中此框可在检索密码时使用验证码。</value>
   </data>
   <data name="Security_CaptchaRetrivePassword.Text" xml:space="preserve">
-    <value>Use CAPTCHA to Retrieve Password</value>
+    <value>使用CAPTCHA来检索密码</value>
   </data>
   <data name="Security_CaptchaChangePassword.Help" xml:space="preserve">
-    <value>Check this box to use CAPTCHA to change passwords.</value>
+    <value>选中此框以使用CAPTCHA更改密码。</value>
   </data>
   <data name="Security_CaptchaChangePassword.Text" xml:space="preserve">
-    <value>Use CAPTCHA to Change Password</value>
+    <value>使用CAPTCHA来更改密码</value>
   </data>
   <data name="plHideLoginControl.Help" xml:space="preserve">
-    <value>Check this box to hide the login link in page.</value>
+    <value>选中此框可隐藏页面中的登录链接。</value>
   </data>
   <data name="plHideLoginControl.Text" xml:space="preserve">
-    <value>Hide Login Control</value>
+    <value>隐藏登录控制</value>
   </data>
   <data name="BasicLoginSettingsUpdateSuccess" xml:space="preserve">
     <value>登录设置已更新。</value>
@@ -256,37 +256,37 @@
     <value>IP 地址</value>
   </data>
   <data name="DeleteSuccess.Text" xml:space="preserve">
-    <value>The IP filter has been deleted.</value>
+    <value>IP过滤器已被删除。</value>
   </data>
   <data name="DeleteError.Text" xml:space="preserve">
-    <value>Could not delete the IP filter. Please try later.</value>
+    <value>无法删除IP过滤器。请稍后再试。</value>
   </data>
   <data name="IpFilterDeletedWarning.Text" xml:space="preserve">
-    <value>Are you sure you want to delete this IP filter?</value>
+    <value>您确定要删除此IP过滤器吗？</value>
   </data>
   <data name="Yes.Text" xml:space="preserve">
     <value>是</value>
   </data>
   <data name="No.Text" xml:space="preserve">
-    <value>No</value>
+    <value>否</value>
   </data>
   <data name="plRuleSpecifity.Help" xml:space="preserve">
-    <value>Determines whether the rule applies to a single IP address or a range of IP addresses.</value>
+    <value>确定规则是应用于单个IP地址还是一系列IP地址。</value>
   </data>
   <data name="plRuleSpecifity.Text" xml:space="preserve">
-    <value>Rule Specificity</value>
+    <value>规则特异性</value>
   </data>
   <data name="plRuleType.Help" xml:space="preserve">
-    <value>Determines whether this rule allows or denies access.</value>
+    <value>确定此规则是允许还是拒绝访问。</value>
   </data>
   <data name="plRuleType.Text" xml:space="preserve">
     <value>规则类型</value>
   </data>
   <data name="SingleIP.Text" xml:space="preserve">
-    <value>Single IP</value>
+    <value>单一IP</value>
   </data>
   <data name="IPRange.Text" xml:space="preserve">
-    <value>IP Range</value>
+    <value>IP范围</value>
   </data>
   <data name="plFirstIP.Text" xml:space="preserve">
     <value>First IP</value>
@@ -445,154 +445,154 @@
     <value>The "Email" field, at minimum, must be included.</value>
   </data>
   <data name="NoDisplayName.Text" xml:space="preserve">
-    <value>You have selected the Require Unique Display Name option but you have not included the Display Name in the list of fields.</value>
+    <value>您已经选择了“需要唯一显示名称”选项，但是您没有在字段列表中包含“显示名称”。</value>
   </data>
   <data name="ContainsDuplicateAddresses.Text" xml:space="preserve">
-    <value>The user base of this site contains duplicate email addresses. If you want to use email addresses as user names you must fix those entries first.</value>
+    <value>本网站的用户群包含重复的电子邮件地址。如果您想使用电子邮件地址作为用户名，则必须先修复这些条目。</value>
   </data>
   <data name="registrationFormTypeLabel.Help" xml:space="preserve">
-    <value>Select the type of Registration Form that you want to use.</value>
+    <value>选择您要使用的注册表格的类型。</value>
   </data>
   <data name="registrationFormTypeLabel.Text" xml:space="preserve">
-    <value>Registration Form Type</value>
+    <value>注册表单类型</value>
   </data>
   <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
-    <value>Optionally specify a format for display names.  The format can include tokens for dynamic substitution such as [FIRSTNAME] [LASTNAME].  If a display name format is specified, the display name will no longer be editable through the user interface.</value>
+    <value>可以指定显示名称的格式。该格式可以包括用于动态替换的标记，如[FIRSTNAME] [LASTNAME]。如果指定了显示名称格式，则不能再通过用户界面编辑显示名称。</value>
   </data>
   <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
-    <value>Display Name Format</value>
+    <value>显示名称格式</value>
   </data>
   <data name="Security_UserNameValidation.Help" xml:space="preserve">
-    <value>Add your own Validation Expression, which is used to check the validity of the user name provided.  If you change this from the default you should update the message that a user would see when they enter an invalid user name using the localization editor in Settings - Site Settings - Languages.</value>
+    <value>添加您自己的验证表达式，用于检查提供的用户名的有效性。如果您更改默认设置，则应更新用户在设置 - 站点设置 - 语言中使用本地化编辑器输入无效用户名时会看到的消息。</value>
   </data>
   <data name="Security_UserNameValidation.Text" xml:space="preserve">
-    <value>User Name Validation</value>
+    <value>用户名称验证</value>
   </data>
   <data name="Security_EmailValidation.Help" xml:space="preserve">
-    <value>Optionally modify the Email Validation Expression which is used to check the validity of the email address provided.</value>
+    <value>可以选择修改电子邮件验证表达式，该表达式用于检查提供的电子邮件地址的有效性。</value>
   </data>
   <data name="Security_EmailValidation.Text" xml:space="preserve">
-    <value>Email Address Validation</value>
+    <value>电子邮件地址验证</value>
   </data>
   <data name="Registration_ExcludeTerms.Help" xml:space="preserve">
-    <value>You can define a comma-delimited list of terms that a user cannot use in their user name or display name.</value>
+    <value>您可以定义用户不能在其用户名或显示名称中使用的用逗号分隔的术语列表。</value>
   </data>
   <data name="Registration_ExcludeTerms.Text" xml:space="preserve">
-    <value>Excluded Terms</value>
+    <value>排除的术语</value>
   </data>
   <data name="Redirect_AfterRegistration.Help" xml:space="preserve">
-    <value>Optionally select the page that users will be redirected to upon successful registration.</value>
+    <value>（可选）选择用户在成功注册后将被重定向到的页面。</value>
   </data>
   <data name="Redirect_AfterRegistration.Text" xml:space="preserve">
-    <value>Redirect After Registration</value>
+    <value>注册后重定向</value>
   </data>
   <data name="plEnableRegisterNotification.Help" xml:space="preserve">
-    <value>Check this box to send email notification of new user registrations to the Primary Administrator.</value>
+    <value>选中此框将新用户注册的电子邮件通知发送给主管理员。</value>
   </data>
   <data name="plEnableRegisterNotification.Text" xml:space="preserve">
-    <value>Receive User Registration Notification</value>
+    <value>接收用户注册通知</value>
   </data>
   <data name="Registration_UseAuthProviders.Help" xml:space="preserve">
-    <value>Select this option to use authentication providers during registration.  Note that not all providers support this option.</value>
+    <value>选择此选项可在注册期间使用验证提供程序。请注意，并非所有提供者都支持此选项。</value>
   </data>
   <data name="Registration_UseAuthProviders.Text" xml:space="preserve">
-    <value>Use Authentication Providers</value>
+    <value>使用验证提供程序</value>
   </data>
   <data name="Registration_UseProfanityFilter.Help" xml:space="preserve">
-    <value>Check this box to enforce the profanity filter for the user name and display name fields during registration.</value>
+    <value>选中此框可在注册过程中为用户名和显示名称字段强制执行亵渎过滤器。</value>
   </data>
   <data name="Registration_UseProfanityFilter.Text" xml:space="preserve">
-    <value>Use Profanity Filter</value>
+    <value>使用亵渎过滤器</value>
   </data>
   <data name="Registration_UseEmailAsUserName.Help" xml:space="preserve">
-    <value>Check this box to use the email address as the user name.  If this option is enabled then the user name entry field will not be shown in the registration form.</value>
+    <value>选中此框以使用电子邮件地址作为用户名。如果启用此选项，则用户名输入字段将不会显示在注册表单中。</value>
   </data>
   <data name="Registration_UseEmailAsUserName.Text" xml:space="preserve">
-    <value>Use Email Address as Username</value>
+    <value>使用电邮地址作为用户名</value>
   </data>
   <data name="Registration_RequireUniqueDisplayName.Help" xml:space="preserve">
-    <value>Optionally require users to use a unique display name.  If a user chooses a name that already exists then a modified name will be suggested.</value>
+    <value>可选地要求用户使用唯一的显示名称。如果用户选择一个已经存在的名字，那么会建议修改后的名称。</value>
   </data>
   <data name="Registration_RequireUniqueDisplayName.Text" xml:space="preserve">
-    <value>Require Unique Display Name</value>
+    <value>需要唯一的显示名称</value>
   </data>
   <data name="Registration_RandomPassword.Help" xml:space="preserve">
-    <value>Check this box to generate random passwords during registration, rather than displaying a password entry field.</value>
+    <value>选中此框可在注册期间生成随机密码，而不是显示密码输入字段。</value>
   </data>
   <data name="Registration_RandomPassword.Text" xml:space="preserve">
-    <value>Use Random Password</value>
+    <value>使用随机密码</value>
   </data>
   <data name="Registration_RequireConfirmPassword.Help" xml:space="preserve">
-    <value>Check this box to display a password confirmation box on the registration form.</value>
+    <value>选中此框可在注册表中显示密码确认框。</value>
   </data>
   <data name="Registration_RequireConfirmPassword.Text" xml:space="preserve">
-    <value>Require Password Confirmation</value>
+    <value>需要密码确认</value>
   </data>
   <data name="Security_RequireValidProfile.Help" xml:space="preserve">
-    <value>Check this box if users must complete all required fields including the User Name, First Name, Last Name, Display Name, Email Address and Password fields during registration.</value>
+    <value>如果用户在注册期间必须填写所有必填字段（包括用户名，名字，姓氏，显示名称，电子邮件地址和密码字段），请选中此框。</value>
   </data>
   <data name="Security_RequireValidProfile.Text" xml:space="preserve">
-    <value>Require a Valid Profile for Registration</value>
+    <value>要求注册有效的配置文件</value>
   </data>
   <data name="Security_CaptchaRegister.Help" xml:space="preserve">
-    <value>Indicate whether this site should use CAPTCHA for registration.</value>
+    <value>指出此网站是否应使用CAPTCHA进行注册。</value>
   </data>
   <data name="Security_CaptchaRegister.Text" xml:space="preserve">
-    <value>Use CAPTCHA for Registration</value>
+    <value>使用CAPTCHA进行注册</value>
   </data>
   <data name="RequiresUniqueEmail.Help" xml:space="preserve">
-    <value>Check this box to require each user to provide a unique email address.  This prevents users from registering  multiple times with the same email address.</value>
+    <value>选中此框可要求每个用户提供唯一的电子邮件地址。这可以防止用户使用相同的电子邮件地址多次注册。</value>
   </data>
   <data name="RequiresUniqueEmail.Text" xml:space="preserve">
-    <value>Requires Unique Email</value>
+    <value>需要唯一的电子邮件</value>
   </data>
   <data name="PasswordFormat.Help" xml:space="preserve">
-    <value>The password format.</value>
+    <value>密码格式。</value>
   </data>
   <data name="PasswordFormat.Text" xml:space="preserve">
-    <value>Password Format</value>
+    <value>密码格式</value>
   </data>
   <data name="PasswordRetrievalEnabled.Help" xml:space="preserve">
-    <value>Indicates whether users can retrieve their password.</value>
+    <value>指示用户是否可以检索其密码。</value>
   </data>
   <data name="PasswordRetrievalEnabled.Text" xml:space="preserve">
-    <value>Password Retrieval Enabled</value>
+    <value>密码检索已启用</value>
   </data>
   <data name="PasswordResetEnabledTitle.Help" xml:space="preserve">
-    <value>Indicates whether or not a user can request their password to be reset.  This can only be changed in web.config file.</value>
+    <value>指示用户是否可以请求重置密码。这只能在web.config文件中更改。</value>
   </data>
   <data name="PasswordResetEnabledTitle.Text" xml:space="preserve">
-    <value>Password Reset Enabled</value>
+    <value>密码重置已启用</value>
   </data>
   <data name="MinNonAlphanumericCharactersTitle.Help" xml:space="preserve">
-    <value>Indicates the minimum number of special characters in the password.  This can only be changed in web.config file.</value>
+    <value>指示密码中特殊字符的最小数量。这只能在web.config文件中更改。</value>
   </data>
   <data name="MinNonAlphanumericCharactersTitle.Text" xml:space="preserve">
-    <value>Min Non Alphanumeric Characters</value>
+    <value>最小非字母数字字符</value>
   </data>
   <data name="RequiresQuestionAndAnswerTitle.Help" xml:space="preserve">
-    <value>Indicates whether a question and answer system is used as part of the registration process.  Can only be changed in web.config file.</value>
+    <value>指示是否将问题和答案系统用作注册过程的一部分。只能在web.config文件中更改。</value>
   </data>
   <data name="RequiresQuestionAndAnswerTitle.Text" xml:space="preserve">
-    <value>Requires Question and Answer</value>
+    <value>需要问题和答案</value>
   </data>
   <data name="PasswordStrengthRegularExpressionTitle.Help" xml:space="preserve">
-    <value>The regular expression used to evaluate password complexity from the provider specified in the Provider property. This can only be changed in web.config file by adding/altering the passwordStrengthRegularExpression node of AspNetSqlMembershipProvider. Note: this server validation is different from the password strength meter introduced in 7.1.0 which only advises on password strength, whereas this expression is a requirement for new passwords (if it is defined).</value>
+    <value>用于评估Provider属性中指定的提供者的密码复杂度的正则表达式。这只能在web.config文件中通过添加/更改AspNetSqlMembershipProvider的passwordStrengthRegularExpression节点来更改。注意:此服务器验证与7.1.0版中引入的密码强度度量工具不同，后者仅建议使用密码强度，而如果定义为)，则此表达式是新密码(的要求。</value>
   </data>
   <data name="PasswordStrengthRegularExpressionTitle.Text" xml:space="preserve">
-    <value>Password Strength Regular Expression</value>
+    <value>密码强度正则表达式</value>
   </data>
   <data name="MaxInvalidPasswordAttemptsTitle.Help" xml:space="preserve">
-    <value>Indicates the number of times the wrong password can be entered before account is locked.  This can only be changed in web.config file.</value>
+    <value>表示在锁定帐户之前可以输入错误密码的次数。这只能在web.config文件中更改。</value>
   </data>
   <data name="MaxInvalidPasswordAttemptsTitle.Text" xml:space="preserve">
-    <value>Max Invalid Password Attempts</value>
+    <value>最大无效密码尝试</value>
   </data>
   <data name="PasswordAttemptWindowTitle.Help" xml:space="preserve">
-    <value>Indicates the length of time an account is locked after failed login attempts.  Can only be changed in web.config file.</value>
+    <value>指示失败登录尝试后帐户被锁定的时间长度。只能在web.config文件中更改。</value>
   </data>
   <data name="PasswordAttemptWindowTitle.Text" xml:space="preserve">
-    <value>Password Attempt Window</value>
+    <value>密码尝试窗口</value>
   </data>
   <data name="RegistrationSettingsUpdateSuccess.Text" xml:space="preserve">
     <value>The registration settings has been updated.</value>
@@ -745,16 +745,16 @@
     <value>审计检查</value>
   </data>
   <data name="SuperuserActivity.Text" xml:space="preserve">
-    <value>Super User Activity</value>
+    <value>超级用户活动</value>
   </data>
   <data name="CheckDebugFailure.Text" xml:space="preserve">
-    <value>debug is set to true - consider editing web.config and setting it to false (or use the configuration manager)</value>
+    <value>debug设置为true  - 请考虑编辑web.config并将其设置为false (或使用配置管理器)</value>
   </data>
   <data name="CheckDebugReason.Text" xml:space="preserve">
-    <value>If the debug attribute is set to true it impacts performance and can reveal security exception details useful to hackers</value>
+    <value>如果debug属性设置为true，它会影响性能，并可以揭示对黑客有用的安全异常细节</value>
   </data>
   <data name="CheckDebugSuccess.Text" xml:space="preserve">
-    <value>Not in debug mode. This setting depends on debug value in web.config file.</value>
+    <value>不在调试模式。此设置取决于web.config文件中的调试值。</value>
   </data>
   <data name="cmdCheck.Text" xml:space="preserve">
     <value>检查</value>
@@ -763,28 +763,28 @@
     <value>搜索</value>
   </data>
   <data name="plSearchTerm.Text" xml:space="preserve">
-    <value>Search term</value>
+    <value>搜索词</value>
   </data>
   <data name="cmdModifiedFiles.Text" xml:space="preserve">
-    <value>Find Recently Modified Files</value>
+    <value>查找最近修改的文件</value>
   </data>
   <data name="ScannerChecks.Text" xml:space="preserve">
-    <value>Search Filesystem and Database</value>
+    <value>搜索文件系统和数据库</value>
   </data>
   <data name="AuditExplanation.Text" xml:space="preserve">
-    <value>Note: the system automatically perform scans for security best practices</value>
+    <value>注意:系统会自动执行扫描以获取安全最佳做法</value>
   </data>
   <data name="Authorized.Header" xml:space="preserve">
-    <value>Authorized</value>
+    <value>合法</value>
   </data>
   <data name="CheckTracing.Text" xml:space="preserve">
-    <value>Tracing is set to true - consider editing web.config and setting it to false (or use the configuration manager)</value>
+    <value>跟踪设置为true  - 请考虑编辑web.config并将其设置为false (或使用配置管理器)</value>
   </data>
   <data name="CheckTracingReason.Text" xml:space="preserve">
-    <value>If the tracing attribute is set to true it allows potential hackers to view site activity</value>
+    <value>如果tracing属性设置为true，则允许潜在的黑客查看网站活动</value>
   </data>
   <data name="CheckTracingSuccess.Text" xml:space="preserve">
-    <value>Tracing is not enabled</value>
+    <value>跟踪未启用</value>
   </data>
   <data name="CreatedDate.Header" xml:space="preserve">
     <value>创建日期</value>
@@ -793,19 +793,19 @@
     <value>显示名称</value>
   </data>
   <data name="Email.Header" xml:space="preserve">
-    <value>Email</value>
+    <value>电子邮件</value>
   </data>
   <data name="FirstName.Header" xml:space="preserve">
-    <value>First name</value>
+    <value>名字</value>
   </data>
   <data name="LastActivityDate.Header" xml:space="preserve">
-    <value>Last Activity Date</value>
+    <value>上次活动日期</value>
   </data>
   <data name="LastLogin.Header" xml:space="preserve">
     <value>上次登录</value>
   </data>
   <data name="LastName.Header" xml:space="preserve">
-    <value>姓</value>
+    <value>姓氏</value>
   </data>
   <data name="ScannerExplanation.Text" xml:space="preserve">
     <value/>
@@ -814,92 +814,91 @@
     <value>用户名</value>
   </data>
   <data name="CheckBiographyFailure.Text" xml:space="preserve">
-    <value>The field is richtext. Spammers may put links to their website in their biography field.</value>
+    <value>该领域是richtext。垃圾邮件发送者可能会在他们的传记领域中链接到他们的网站。</value>
   </data>
   <data name="CheckBiographyReason.Text" xml:space="preserve">
-    <value>The biography field is a common target for spammers as they can add links/html to it. In DNN 7.2.0 this was changed to a multiline textbox which removes this risk.</value>
+    <value>传记字段是垃圾邮件发送者的常见目标，因为他们可以添加链接/ html。在DNN 7.2.0中，这被改为多行文本框，从而消除了这种风险。</value>
   </data>
   <data name="CheckBiographySuccess.Text" xml:space="preserve">
     <value>该字段是多行文本框</value>
   </data>
   <data name="CheckRarelyUsedSuperuserFailure.Text" xml:space="preserve">
-    <value>We have found 1 or more superuser accounts that have not been logged in or had activity in six months. Consider deleting them as a best practice</value>
+    <value>我们发现一个或多个超级用户帐户在六个月内尚未登录或有活动。考虑删除它们作为最佳做法</value>
   </data>
   <data name="CheckRarelyUsedSuperuserReason.Text" xml:space="preserve">
-    <value>Superuser accounts are the most powerful DNN accounts. As a best practice these should be limited.</value>
+    <value>超级用户帐户是最强大的DNN帐户。作为最佳做法，这些应该是有限的。</value>
   </data>
   <data name="CheckRarelyUsedSuperuserSuccess.Text" xml:space="preserve">
-    <value>All superusers are regular users of the system.</value>
+    <value>所有超级用户都是系统的常规用户。</value>
   </data>
   <data name="CheckSiteRegistrationFailure.Text" xml:space="preserve">
-    <value>One or more websites are using public registration</value>
+    <value>一个或多个网站正在使用公共注册</value>
   </data>
   <data name="CheckSiteRegistrationReason.Text" xml:space="preserve">
-    <value>Sites that have public registration enabled are a prime target for spammers.</value>
+    <value>启用公共注册的网站是垃圾邮件发送者的主要目标。</value>
   </data>
   <data name="CheckSiteRegistrationSuccess.Text" xml:space="preserve">
-    <value>All the websites are using non-public registration</value>
+    <value>所有网站都使用非公开注册</value>
   </data>
   <data name="CheckSuperuserOldPasswordFailure.Text" xml:space="preserve">
-    <value>At least one superuser account has a password that has not been changed in more than 6 months.</value>
+    <value>至少有一个超级用户帐户的密码在超过6个月内未被更改。</value>
   </data>
   <data name="CheckSuperuserOldPasswordReason.Text" xml:space="preserve">
-    <value>Superuser accounts are the most powerful DNN accounts. As a best practice these accounts should have their passwords changed regularly.</value>
+    <value>超级用户帐户是最强大的DNN帐户。作为最佳做法，这些帐户应定期更改其密码。</value>
   </data>
   <data name="CheckSuperuserOldPasswordSuccess.Text" xml:space="preserve">
-    <value>No superuser has a password older than 6 months.</value>
+    <value>超级用户没有超过6个月的密码。</value>
   </data>
   <data name="CheckUnexpectedExtensionsFailure.Text" xml:space="preserve">
-    <value>An asp or php extension was found - these may be harmless, but sometimes indicate a site has been exploited and these files are tools. We recommend you evaluate these files carefully.</value>
+    <value>发现了一个asp或php的扩展名 - 这些可能是无害的，但有时表明一个网站已被利用，这些文件是工具。我们建议您仔细评估这些文件。</value>
   </data>
   <data name="CheckUnexpectedExtensionsReason.Text" xml:space="preserve">
-    <value>DNN is an asp.net web application. Under normal circumstances other server application extensions such as asp and php should not be in use.</value>
+    <value>DNN是一个asp.net Web应用程序。在正常情况下，其他服务器应用程序扩展（如asp和php）不应被使用。</value>
   </data>
   <data name="CheckUnexpectedExtensionsSuccess.Text" xml:space="preserve">
-    <value>No unexpected extensions found</value>
+    <value>没有发现意外的扩展</value>
   </data>
   <data name="CheckViewstatemacFailure.Text" xml:space="preserve">
-    <value>viewstatemac validation is not enabled</value>
+    <value>viewstatemac验证未启用</value>
   </data>
   <data name="CheckViewstatemacReason.Text" xml:space="preserve">
-    <value>A view-state MAC is an encrypted version of the hidden variable that a page's view state is persisted to when the page is sent to the browser. When this property is set to true, the encrypted view state is checked to verify that it has not been tampered with on the client. 
-</value>
+    <value>视图状态MAC是隐藏变量的加密版本，当页面被发送到浏览器时，页面的视图状态被持久保留。当此属性设置为true时，将检查加密的视图状态以验证它未在客户端上被篡改。</value>
   </data>
   <data name="CheckViewstatemacSuccess.Text" xml:space="preserve">
-    <value>The viewstate is protected via the usage of a MAC</value>
+    <value>视图状态通过使用MAC来保护</value>
   </data>
   <data name="CheckPurpose.Header" xml:space="preserve">
-    <value>Purpose of the check</value>
+    <value>检查的目的</value>
   </data>
   <data name="Result.Header" xml:space="preserve">
     <value>结果</value>
   </data>
   <data name="Severity.Header" xml:space="preserve">
-    <value>Severity</value>
+    <value>严重</value>
   </data>
   <data name="CheckBiographyName.Text" xml:space="preserve">
-    <value>Check if public profile fields use richtext</value>
+    <value>检查公共个人资料字段是否使用richtext</value>
   </data>
   <data name="CheckDebugName.Text" xml:space="preserve">
     <value>检查调试状态</value>
   </data>
   <data name="CheckRarelyUsedSuperuserName.Text" xml:space="preserve">
-    <value>Check if superuser accounts are rarely active</value>
+    <value>检查超级用户帐户是否很少激活</value>
   </data>
   <data name="CheckSiteRegistrationName.Text" xml:space="preserve">
-    <value>Check if site(s) use public registration</value>
+    <value>检查网站是否使用公开注册</value>
   </data>
   <data name="CheckSuperuserOldPasswordName.Text" xml:space="preserve">
-    <value>Check if superusers are not regularly changing passwords</value>
+    <value>检查超级用户是否不定期更改密码</value>
   </data>
   <data name="CheckTracingName.Text" xml:space="preserve">
-    <value>Check if asp.net tracing is enabled</value>
+    <value>检查是否启用了asp.net跟踪</value>
   </data>
   <data name="CheckUnexpectedExtensionsName.Text" xml:space="preserve">
-    <value>Check if asp/php files are found</value>
+    <value>检查是否找到asp / php文件</value>
   </data>
   <data name="CheckDefaultPageName.Text" xml:space="preserve">
-    <value>Check if default.aspx or default.aspx.cs files have been modified</value>
+    <value>检查default.aspx或default.aspx.cs文件是否已被修改</value>
   </data>
   <data name="CheckDefaultPageFailure.Text" xml:space="preserve">
     <value>The default page(s) have been modified. We recommend you evaluate these files carefully, they may be modified by a hacker and may contain malicious code. It is best to compare these files with that from a standard install of your product. Ensure that the DNN or Evoq version of your current site matches with the standard site prior to comparison. Either remove the malicious code or restore these files from standard installation.</value>
@@ -1070,16 +1069,16 @@
     <value>设置值</value>
   </data>
   <data name="UserId.Text" xml:space="preserve">
-    <value>USER ID</value>
+    <value>用户 ID</value>
   </data>
   <data name="SearchPlaceHolder.Text" xml:space="preserve">
     <value>搜素</value>
   </data>
   <data name="SearchFileSystemResult.Text" xml:space="preserve">
-    <value>File System: {0} Files Found</value>
+    <value>文件系统:{0}找到的文件</value>
   </data>
   <data name="SearchDatabaseResult.Text" xml:space="preserve">
-    <value>Database: {0} Instances Found</value>
+    <value>数据库:{0}实例已找到</value>
   </data>
   <data name="DatabaseInstance.Text" xml:space="preserve">
     <value>数据库实例</value>
@@ -1088,10 +1087,10 @@
     <value>值</value>
   </data>
   <data name="plSSLOffload.Text" xml:space="preserve">
-    <value>SSL Offload Header Value</value>
+    <value>SSL卸载标题值</value>
   </data>
   <data name="plSSLOffload.Help" xml:space="preserve">
-    <value>Set the name of the HTTP header that will be checked to see if a network balancer has used SSL Offloading</value>
+    <value>设置将检查的HTTP标头的名称，以查看网络平衡器是否使用了SSL卸载</value>
   </data>
   <data name="BulletinDescription.Text" xml:space="preserve">
     <value>描述</value>
@@ -1103,57 +1102,57 @@
     <value>没有指定</value>
   </data>
   <data name="MinPasswordLengthTitle.Help" xml:space="preserve">
-    <value>Indicates the minimum number of characters in the password.  This can only be changed in web.config file.</value>
+    <value>指示密码中的最少字符数。这只能在web.config文件中更改。</value>
   </data>
   <data name="MinPasswordLengthTitle.Text" xml:space="preserve">
-    <value>Min Password Length</value>
+    <value>最小密码长度</value>
   </data>
   <data name="CheckHiddenSystemFilesFailure.Text" xml:space="preserve">
-    <value>There are files marked as system file or hidden in the website folder.</value>
+    <value>有文件标记为系统文件或隐藏在网站文件夹中。</value>
   </data>
   <data name="CheckHiddenSystemFilesName.Text" xml:space="preserve">
     <value>检查隐藏文件</value>
   </data>
   <data name="CheckHiddenSystemFilesReason.Text" xml:space="preserve">
-    <value>Hackers may upload rootkits into the website, they marked them as system file or hidden in file system, then you can not see these files in file explorer.</value>
+    <value>黑客可能会将rootkit上传到网站，将它们标记为系统文件或隐藏在文件系统中，然后在文件资源管理器中看不到这些文件。</value>
   </data>
   <data name="CheckHiddenSystemFilesSuccess.Text" xml:space="preserve">
-    <value>There are no files marked as system file or hidden in the website folder.</value>
+    <value>没有文件标记为系统文件或隐藏在网站文件夹中。</value>
   </data>
   <data name="plDisplayCopyright.Help" xml:space="preserve">
-    <value>Check this box to add the DNN copyright credits to the page source.</value>
+    <value>选中此框可将DNN版权信用添加到页面源。</value>
   </data>
   <data name="plDisplayCopyright.Text" xml:space="preserve">
-    <value>Show Copyright Credits</value>
+    <value>显示版权信用</value>
   </data>
   <data name="CheckTelerikVulnerabilityFailure.Text" xml:space="preserve">
-    <value>The Telerik component vulnerability has not been patched, please go to http://www.dnnsoftware.com/community-blog/cid/155449/critical-security-update--september2017 for detailed information and to download the patch.</value>
+    <value>Telerik组件漏洞尚未修补，请访问http ://www.dnnsoftware.com/community-blog/cid/155449/critical-security-update-september2017获取详细信息并下载该修补程序。</value>
   </data>
   <data name="CheckTelerikVulnerabilityName.Text" xml:space="preserve">
-    <value>Check if Telerik component has vulnerability.</value>
+    <value>检查Telerik组件是否存在漏洞。</value>
   </data>
   <data name="CheckTelerikVulnerabilityReason.Text" xml:space="preserve">
-    <value>Third party components referenced in core may have vulnerability in old versions and need to be patched.</value>
+    <value>核心中引用的第三方组件可能在旧版本中存在漏洞，需要进行修补。</value>
   </data>
   <data name="CheckTelerikVulnerabilitySuccess.Text" xml:space="preserve">
-    <value>Telerik Component already patched.</value>
+    <value>Telerik组件已经修补。</value>
   </data>
   <data name="UserNotMemberOfRole.Text" xml:space="preserve">
-    <value>User not member of {0} role.</value>
+    <value>用户不是{0}角色的成员。</value>
   </data>
   <data name="NotValid.Text" xml:space="preserve">
-    <value>{0} {1} is not valid.</value>
+    <value>{0}{1}无效。</value>
   </data>
   <data name="Empty.Text" xml:space="preserve">
-    <value>{0} should not be empty.</value>
+    <value>{0}不应该为空。</value>
   </data>
   <data name="DeletedTab.Text" xml:space="preserve">
-    <value>The tab with this id {0} is deleted.</value>
+    <value>此ID为{0}的标签将被删除。</value>
   </data>
   <data name="Disabled.Text" xml:space="preserve">
-    <value>The tab with this id {0} is disable.</value>
+    <value>此ID为{0}的标签已禁用。</value>
   </data>
   <data name="Check.Text" xml:space="preserve">
-    <value>[ Check ]</value>
+    <value>[检查]</value>
   </data>
 </root>
