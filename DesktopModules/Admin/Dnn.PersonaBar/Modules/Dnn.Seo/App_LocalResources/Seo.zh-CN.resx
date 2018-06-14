@@ -151,22 +151,22 @@
     <value>404 错误</value>
   </data>
   <data name="ReplacementCharacter.Text" xml:space="preserve">
-    <value>Standard Replacement Character</value>
+    <value>标准替换字符</value>
   </data>
   <data name="ReplacementCharacter.Help" xml:space="preserve">
-    <value>Standard Replacement Character</value>
+    <value>标准替换字符</value>
   </data>
   <data name="enableSystemGeneratedUrlsLabel.Text" xml:space="preserve">
     <value>连结页面 URL</value>
   </data>
   <data name="enableSystemGeneratedUrlsLabel.Help" xml:space="preserve">
-    <value>You can configure how the system will generate URLs.</value>
+    <value>您可以配置系统将如何生成URL。</value>
   </data>
   <data name="enableLowerCaseLabel.Help" xml:space="preserve">
-    <value>Check this box to force URLs to be converted to lowercase.</value>
+    <value>选中此框可强制将URL转换为小写。</value>
   </data>
   <data name="enableLowerCaseLabel.Text" xml:space="preserve">
-    <value>Convert URLs to Lowercase</value>
+    <value>将网址转换为小写</value>
   </data>
   <data name="autoAsciiConvertLabel.Help" xml:space="preserve">
     <value>选中时，任何带有重音的(变音符号)字符（如å和è）都将转换为与它们的plain-ascii等效。示例:å-&gt;a和è-&gt;e。</value>
@@ -175,10 +175,10 @@
     <value>转换重音字符</value>
   </data>
   <data name="setDefaultSiteLanguageLabel.Help" xml:space="preserve">
-    <value>When checked, the default language for this site will always be set in the rewritten URL when no other language is found.</value>
+    <value>选中时，如果找不到其他语言，则此网站的默认语言将始终设置在重写的网址中。</value>
   </data>
   <data name="setDefaultSiteLanguageLabel.Text" xml:space="preserve">
-    <value>Set Default Site Language</value>
+    <value>设置默认网站语言</value>
   </data>
   <data name="UrlRewriter.Text" xml:space="preserve">
     <value>URL 重写</value>
@@ -187,34 +187,34 @@
     <value>URL 重定向</value>
   </data>
   <data name="plDeletedPages.Help" xml:space="preserve">
-    <value>Select the behavior that should occur when a user browses to a deleted, expired or disabled page.</value>
+    <value>选择用户浏览到已删除，已过期或已禁用页面时应发生的行为。</value>
   </data>
   <data name="plDeletedPages.Text" xml:space="preserve">
-    <value>Redirect deleted, expired, disabled pages to</value>
+    <value>将已删除，已过期，禁用的网页重定向到</value>
   </data>
   <data name="enable301RedirectsLabel.Help" xml:space="preserve">
-    <value>Check this box if you want old "non-friendly" URLs to be redirected to the new URLs.</value>
+    <value>如果您希望将旧的"不友好的"网址重新定向到新网址，请选中此框。</value>
   </data>
   <data name="enable301RedirectsLabel.Text" xml:space="preserve">
     <value>重定向至友好 URL</value>
   </data>
   <data name="redirectOnWrongCaseLabel.Help" xml:space="preserve">
-    <value>When checked, any URL that is not in lower case will be redirected to the lower case version of that URL.</value>
+    <value>选中时，任何非小写的URL都将被重定向到该URL的小写版本。</value>
   </data>
   <data name="redirectOnWrongCaseLabel.Text" xml:space="preserve">
-    <value>Redirect Mixed Case URLs</value>
+    <value>重定向混合大小写网址</value>
   </data>
   <data name="GlobalSetting.Text" xml:space="preserve">
-    <value>This is a global setting. Changes to this setting will affect all of your sites.</value>
+    <value>这是一个全球性的设置。此设置的更改将影响您的所有网站。</value>
   </data>
   <data name="ignoreRegExLabel.Help" xml:space="preserve">
-    <value>The Ignore URL Regex pattern is used to stop processing of URLs by the URL Rewriting module.  This should be used when the URL in question doesn’t need to be rewritten, redirected or otherwise processed through the URL Rewriter.  Examples include images, css files, pdf files, service requests and requests for resources not associated with DotNetNuke.</value>
+    <value>忽略URL正则表达式模式用于通过URL重写模块停止处理URL。当有问题的URL不需要重写，重定向或以其他方式通过URL重写器进行处理时，应使用该选项。示例包括图像，css文件，pdf文件，服务请求以及与DotNetNuke无关的资源请求。</value>
   </data>
   <data name="ignoreRegExLabel.Text" xml:space="preserve">
     <value>忽略 URL 正则表达式</value>
   </data>
   <data name="ignoreRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Ignore URL Regular Expression is invalid</value>
+    <value>忽略URL正则表达式无效</value>
   </data>
   <data name="RegularExpressions.Text" xml:space="preserve">
     <value>正则表达式</value>
@@ -223,109 +223,109 @@
     <value>扩展 URL 提供程序</value>
   </data>
   <data name="SettingsUpdateSuccess.Text" xml:space="preserve">
-    <value>The settings have been updated.</value>
+    <value>设置已更新。</value>
   </data>
   <data name="SettingsError.Text" xml:space="preserve">
-    <value>Could not update the settings. Please try later.</value>
+    <value>无法更新设置。请稍后再试。</value>
   </data>
   <data name="SettingsRestoreWarning.Text" xml:space="preserve">
-    <value>Are you sure you want to cancel your changes?</value>
+    <value>您确定要取消更改吗？</value>
   </data>
   <data name="Yes.Text" xml:space="preserve">
     <value>是</value>
   </data>
   <data name="No.Text" xml:space="preserve">
-    <value>No</value>
+    <value>否</value>
   </data>
   <data name="doNotRewriteRegExLabel.Help" xml:space="preserve">
-    <value>The Do Not Rewrite URL regular expression stops URL Rewriting from occurring on any URL that matches.  Use this value when a URL is being interpreted as a DotNetNuke page, but should not be.</value>
+    <value>不重写URL正则表达式会停止任何匹配的URL上的URL重写。当URL被解释为DotNetNuke页面时使用此值，但不应该是。</value>
   </data>
   <data name="doNotRewriteRegExLabel.Text" xml:space="preserve">
-    <value>Do Not Rewrite URL Regular Expression</value>
+    <value>不要重写URL正则表达式</value>
   </data>
   <data name="doNotRewriteRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Do Not Rewrite URL Regular Expression is invalid</value>
+    <value>不要重写URL正则表达式无效</value>
   </data>
   <data name="siteUrlsOnlyRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Site URLs Only Regular Expression is invalid</value>
+    <value>网站网址只有正则表达式无效</value>
   </data>
   <data name="siteUrlsOnlyRegExLabel.Help" xml:space="preserve">
-    <value>The Site URLs Only regular expression pattern changes the processing order for matching URLs.  When matched, the URLs are evaluated against any of the regular expressions in the siteURLs.config file, without first being checked against the list of friendly URLs for the site.  Use this pattern to force processing through the siteURLs.config file for an explicit URL Rewrite or Redirect located within that file.</value>
+    <value>网站URL只有正则表达式模式才能更改匹配URL的处理顺序。匹配时，URL将根据siteURLs.config文件中的任何正则表达式进行评估，而不首先根据站点的友好URL列表进行检查。使用此模式强制通过siteURLs.config文件处理位于该文件中的显式URL重写或重定向。</value>
   </data>
   <data name="siteUrlsOnlyRegExLabel.Text" xml:space="preserve">
-    <value>Site URLs Only Regular Expression</value>
+    <value>网站网址只有正则表达式</value>
   </data>
   <data name="doNotRedirectUrlRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Do Not Redirect URL Regular Expression is invalid</value>
+    <value>不要重定向URL正则表达式无效</value>
   </data>
   <data name="doNotRedirectUrlRegExLabel.Help" xml:space="preserve">
-    <value>The Do Not Redirect URL regular expression pattern prevents matching URLs from being redirected in all cases.  Use this pattern when a URL is being redirected incorrectly.</value>
+    <value>不重定向URL正则表达式模式可防止在所有情况下重定向匹配URL。当URL被错误地重定向时使用这种模式。</value>
   </data>
   <data name="doNotRedirectUrlRegExLabel.Text" xml:space="preserve">
-    <value>Do Not Redirect URL Regular Expression</value>
+    <value>不要重定向URL正则表达式</value>
   </data>
   <data name="doNotRedirectHttpsUrlRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Do Not Redirect Https URL Regular Expression is invalid</value>
+    <value>不重定向Https URL正则表达式无效</value>
   </data>
   <data name="doNotRedirectHttpsUrlRegExLabel.Help" xml:space="preserve">
-    <value>The Do Not Redirect https URL regular expression is used to stop unwanted redirects between http and https URLs.  It prevents the redirect for any matching URLs, and works both for http-&gt;https and https-&gt;http redirects.</value>
+    <value>不重定向https URL正则表达式用于阻止http和https URL之间不需要的重定向。它可以防止任何匹配URL的重定向，并且可以处理http-&gt; https和https-&gt; http重定向。</value>
   </data>
   <data name="doNotRedirectHttpsUrlRegExLabel.Text" xml:space="preserve">
-    <value>Do Not Redirect Https URL Regular Expression</value>
+    <value>不要重定向Https URL正则表达式</value>
   </data>
   <data name="preventLowerCaseUrlRegExLabel.Help" xml:space="preserve">
-    <value>The Prevent Lowercase URL regular expression stops the automatic conversion to lower case for any matching URLs.  Use this pattern to prevent the lowercase conversion of any URLs which need to remain in mixed/upper case.  This is frequently used to stop the conversion of URLs where the contents of the URL contain an encoded character or case-sensitive value.</value>
+    <value>对于任何匹配的URL，阻止小写URL正则表达式会停止自动转换为小写。使用此模式可防止任何需要保持混合/大写格式的URL的小写转换。这通常用于停止URL内容包含编码字符或区分大小写值的URL转换。</value>
   </data>
   <data name="preventLowerCaseUrlRegExLabel.Text" xml:space="preserve">
-    <value>Prevent Lowercase URL Regular Expression</value>
+    <value>防止小写URL正则表达式</value>
   </data>
   <data name="preventLowerCaseUrlRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Prevent Lowercase URL Regular Expression is invalid</value>
+    <value>防止小写URL正则表达式无效</value>
   </data>
   <data name="doNotUseFriendlyUrlsRegExLabel.Help" xml:space="preserve">
-    <value>The Do Not Use Friendly URLs regular expression pattern is used to force certain DotNetNuke pages into using a longer URL for the page.  This is normally used to generate behaviour for backwards compatibility.</value>
+    <value>不使用友好URL正则表达式模式用于强制某些DotNetNuke页面使用更长的URL作为页面。这通常用于生成向后兼容的行为。</value>
   </data>
   <data name="doNotUseFriendlyUrlsRegExLabel.Text" xml:space="preserve">
-    <value>Do Not Use Friendly URLs Regular Expression</value>
+    <value>不要使用友好的URL正则表达式</value>
   </data>
   <data name="doNotUseFriendlyUrlsRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Do Not Use Friendly URLs Regular Expression is invalid</value>
+    <value>不要使用友好的URL正则表达式无效</value>
   </data>
   <data name="keepInQueryStringRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Keep In Querystring Regular Expression is invalid</value>
+    <value>保持查询字符串正则表达式无效</value>
   </data>
   <data name="keepInQueryStringRegExLabel.Help" xml:space="preserve">
-    <value>The Keep in Querystring regular expression allows the matching of part of the friendly URL Path and ensuring that it stays in the querystring.  When a DotNetNuke URL of /pagename/key/value is generated, a ‘Keep in Querystring Regular Expression’ pattern of /key/value will match that part of the path and leave it as part of the querystring for the generated URL; e.g. /pagename?key=value.</value>
+    <value>Keep in Querystring正则表达式允许匹配部分友好的URL路径并确保它保留在查询字符串中。当生成/ pagename / key / value的DotNetNuke URL时，/ key / value中的'Keep in Querystring Regular Expression'模式将与路径的该部分相匹配，并将其作为生成的URL的查询字符串的一部分;例如/页面名？键=值。</value>
   </data>
   <data name="keepInQueryStringRegExLabel.Text" xml:space="preserve">
-    <value>Keep in Querystring Regular Expression</value>
+    <value>保持Querystring正则表达式</value>
   </data>
   <data name="urlsWithNoExtensionRegExLabel.Help" xml:space="preserve">
-    <value>The URLs with no Extension regular expression pattern is used to validate URLs that do not refer to a resource on the server, are not DotNetNuke pages, but can be requested with no URL extension.  URLs matching this regular expression will not be treated as a 404 when a matching DotNetNuke page can not be found for the URL.</value>
+    <value>没有扩展正则表达式模式的URL用于验证不引用服务器资源的URL，不是DotNetNuke页面，但可以请求不带URL扩展名。当找不到匹配的DotNetNuke页面时，与此正则表达式匹配的URL将不会被视为404。</value>
   </data>
   <data name="urlsWithNoExtensionRegExLabel.Text" xml:space="preserve">
-    <value>URLs With No Extension Regular Expression</value>
+    <value>没有扩展正则表达式的URL</value>
   </data>
   <data name="urlsWithNoExtensionRegExInvalidPattern.Text" xml:space="preserve">
-    <value>URLs With No Extension Regular Expression is invalid</value>
+    <value>没有扩展正则表达式的URL无效</value>
   </data>
   <data name="validFriendlyUrlRegExLabel.Help" xml:space="preserve">
-    <value>This pattern is used to determine whether the characters that make up a page name or URL segment are valid for forming a friendly URL path. Characters that do not match the pattern will be removed from page names</value>
+    <value>此模式用于确定构成页面名称或URL段的字符是否对形成友好的URL路径有效。不匹配模式的字符将从页面名称中删除</value>
   </data>
   <data name="validFriendlyUrlRegExLabel.Text" xml:space="preserve">
-    <value>Valid Friendly URL Regular Expression</value>
+    <value>有效的友好URL正则表达式</value>
   </data>
   <data name="validFriendlyUrlRegExInvalidPattern.Text" xml:space="preserve">
-    <value>Valid Friendly URL Regular Expression is invalid</value>
+    <value>有效的友好URL正则表达式无效</value>
   </data>
   <data name="TestPageUrl.Text" xml:space="preserve">
     <value>测试一个页面的 URL</value>
   </data>
   <data name="TestUrlRewriting.Text" xml:space="preserve">
-    <value>TEST URL REWRITING</value>
+    <value>测试 URL 重写</value>
   </data>
   <data name="selectPageToTestLabel.Help" xml:space="preserve">
-    <value>Select a page for this site to test out the URL generation.   You can use the ‘Search’ box to filter the list of pages.</value>
+    <value>选择此网站的页面以测试URL生成。您可以使用“搜索”框来过滤页面列表。</value>
   </data>
   <data name="selectPageToTestLabel.Text" xml:space="preserve">
     <value>测试页面</value>
@@ -337,67 +337,67 @@
     <value>None</value>
   </data>
   <data name="queryStringLabel.Help" xml:space="preserve">
-    <value>To generate a URL which includes extra information in the path, add on the path information in the form of a querystring.  For example, entering &amp;key=value will change the generated URL to include/key/value in the URL path.  Use this feature to test out the example URLs generated by third party URLs.</value>
+    <value>要生成包含路径中额外信息的URL，请以查询字符串的形式添加路径信息。例如，输入＆key = value会将生成的URL更改为URL路径中的include / key / value。使用此功能测试由第三方URL生成的示例URL。</value>
   </data>
   <data name="queryStringLabel.Text" xml:space="preserve">
-    <value>Add Query String (optional)</value>
+    <value>添加查询字符串(可选)</value>
   </data>
   <data name="pageNameLabel.Help" xml:space="preserve">
-    <value>Some modules generate a friendly URL by defining the last part of the URL explicitly.  If this is the case, enter the value for the ‘pagename’ value that is used when generating the URL.  If you have no explicit value, or do not know when to use this value, leave the value empty.</value>
+    <value>一些模块通过明确定义URL的最后部分来生成友好的URL。如果是这种情况，请输入生成URL时使用的'pagename'值的值。如果您没有明确的价值，或者不知道何时使用此值，请将该值留空。</value>
   </data>
   <data name="pageNameLabel.Text" xml:space="preserve">
-    <value>Custom Page Name / URL End String (optional)</value>
+    <value>自定义页面名称/网址结束字符串(可选)</value>
   </data>
   <data name="resultingUrlsLabel.Text" xml:space="preserve">
-    <value>Resulting URLs</value>
+    <value>结果网址</value>
   </data>
   <data name="resultingUrlsLabel.Help" xml:space="preserve">
-    <value>Shows the list of URLs that can be generated from the selected page, depending on alias and/or language.</value>
+    <value>显示可以从选定页面生成的URL列表，具体取决于别名和/或语言。</value>
   </data>
   <data name="TestUrlButtonCaption.Text" xml:space="preserve">
     <value>测试 URL</value>
   </data>
   <data name="testUrlRewritingButton.Text" xml:space="preserve">
-    <value>Test URL Rewriting</value>
+    <value>测试URL重写</value>
   </data>
   <data name="testUrlRewritingLabel.Text" xml:space="preserve">
-    <value>URL to Test</value>
+    <value>要测试的网址</value>
   </data>
   <data name="testUrlRewritingLabel.Help" xml:space="preserve">
-    <value>Enter a fully-qualified URL (including http:// or https://) into this box in order to test out the URL Rewriting / Redirecting.</value>
+    <value>在此框中输入包含http ://或https :// )的标准网址(，以测试URL重写/重定向。</value>
   </data>
   <data name="rewritingResultLabel.Help" xml:space="preserve">
-    <value>Shows the rewritten URL, in the raw format that will be seen by the DNN platform and third-party extensions.</value>
+    <value>以DNN平台和第三方扩展可以看到的原始格式显示重写的URL。</value>
   </data>
   <data name="rewritingResultLabel.Text" xml:space="preserve">
     <value>重写结果</value>
   </data>
   <data name="languageLabel.Help" xml:space="preserve">
-    <value>Shows the culture code as identified during the URL Rewriting process.</value>
+    <value>显示在URL重写过程中识别的文化代码。</value>
   </data>
   <data name="languageLabel.Text" xml:space="preserve">
     <value>已识别的语言/文化</value>
   </data>
   <data name="identifiedTabLabel.Help" xml:space="preserve">
-    <value>The name of the DNN page that has been identified during the URL Rewriting process.</value>
+    <value>在URL重写过程中识别的DNN页面的名称。</value>
   </data>
   <data name="identifiedTabLabel.Text" xml:space="preserve">
     <value>已识别页面</value>
   </data>
   <data name="redirectionResultLabel.Help" xml:space="preserve">
-    <value>If the tested URL is to be redirected, shows the redirect location of the URL.</value>
+    <value>如果测试的URL将被重定向，则显示URL的重定向位置。</value>
   </data>
   <data name="redirectionResultLabel.Text" xml:space="preserve">
     <value>重定向结果</value>
   </data>
   <data name="redirectionReasonLabel.Help" xml:space="preserve">
-    <value>Reason that this URL was redirected</value>
+    <value>此网址被重定向的原因</value>
   </data>
   <data name="redirectionReasonLabel.Text" xml:space="preserve">
     <value>重定向原因</value>
   </data>
   <data name="operationMessagesLabel.Help" xml:space="preserve">
-    <value>Any debug messages created during the test URL Rewriting process.</value>
+    <value>在测试URL重写过程中创建的任何调试消息。</value>
   </data>
   <data name="operationMessagesLabel.Text" xml:space="preserve">
     <value>操作信息</value>
@@ -430,16 +430,16 @@
     <value>文件 Url</value>
   </data>
   <data name="Host_Portal_Used.Text" xml:space="preserve">
-    <value>Host Portal Used</value>
+    <value>主机入口使用</value>
   </data>
   <data name="Module_Provider_Redirect.Text" xml:space="preserve">
     <value>Module Provider Redirect</value>
   </data>
   <data name="Module_Provider_Rewrite_Redirect.Text" xml:space="preserve">
-    <value>Module Provider Rewrite Redirect</value>
+    <value>模块提供程序重写重定向</value>
   </data>
   <data name="Not_Redirected.Text" xml:space="preserve">
-    <value>Not Redirected</value>
+    <value>未重定向</value>
   </data>
   <data name="No_Portal_Alias.Text" xml:space="preserve">
     <value>没有入口别名</value>
@@ -448,52 +448,52 @@
     <value>404 页面</value>
   </data>
   <data name="Requested_404.Text" xml:space="preserve">
-    <value>Requested 404</value>
+    <value>请求404</value>
   </data>
   <data name="Requested_404_In_Url.Text" xml:space="preserve">
-    <value>Requested 404 In Url</value>
+    <value>请求404在Url中</value>
   </data>
   <data name="Requested_SplashPage.Text" xml:space="preserve">
     <value>请求启动页</value>
   </data>
   <data name="Secure_Page_Requested.Text" xml:space="preserve">
-    <value>Secure Page Requested</value>
+    <value>请求安全页面</value>
   </data>
   <data name="SiteUrls_Config_Rule.Text" xml:space="preserve">
-    <value>SiteUrls Config Rule</value>
+    <value>SiteUrls配置规则</value>
   </data>
   <data name="Site_Root_Home.Text" xml:space="preserve">
-    <value>Site Root Home</value>
+    <value>网站根目录</value>
   </data>
   <data name="Spaces_Replaced.Text" xml:space="preserve">
-    <value>Spaces Replaced</value>
+    <value>空间替换</value>
   </data>
   <data name="Tab_External_Url.Text" xml:space="preserve">
-    <value>Tab External Url</value>
+    <value>标签外部网址</value>
   </data>
   <data name="Tab_Permanent_Redirect.Text" xml:space="preserve">
-    <value>Tab Permanent Redirect</value>
+    <value>标签永久重定向</value>
   </data>
   <data name="Unfriendly_Url_Child_Portal.Text" xml:space="preserve">
-    <value>Unfriendly Url Child Portal</value>
+    <value>不友好的Url儿童入口</value>
   </data>
   <data name="Unfriendly_Url_TabId.Text" xml:space="preserve">
-    <value>Unfriendly Url TabId</value>
+    <value>不友好的Url TabId</value>
   </data>
   <data name="User_Profile_Url.Text" xml:space="preserve">
     <value>用户资料 Url</value>
   </data>
   <data name="Wrong_Portal_Alias.Text" xml:space="preserve">
-    <value>Wrong Portal Alias</value>
+    <value>错误的门户别名</value>
   </data>
   <data name="Wrong_Portal_Alias_For_Browser_Type.Text" xml:space="preserve">
-    <value>Wrong Portal Alias For Browser Type</value>
+    <value>浏览器类型错误的门户别名</value>
   </data>
   <data name="Wrong_Portal_Alias_For_Culture.Text" xml:space="preserve">
-    <value>Wrong Portal Alias For Culture</value>
+    <value>文化错误的门户别名</value>
   </data>
   <data name="Wrong_Portal_Alias_For_Culture_And_Browser.Text" xml:space="preserve">
-    <value>Wrong Portal Alias For Culture And Browser</value>
+    <value>文化和浏览器错误的门户别名</value>
   </data>
   <data name="Wrong_Sub_Domain.Text" xml:space="preserve">
     <value>错误的子域名</value>
@@ -508,43 +508,43 @@
     <value>站点地图提交</value>
   </data>
   <data name="sitemapUrlLabel.Help" xml:space="preserve">
-    <value>Submit the Site Map to Google for better search optimization. Click Submit to get a Google Search Console account and verify your site ownership ( using the Verification option below ). Once verified, you can select the Add General Web Sitemap option on the Google Sitemaps tab and paste in the Site Map URL displayed.</value>
+    <value>将网站地图提交给Google，以便更好地进行搜索优化。点击提交获取Google Search Console帐号，然后使用)下方的验证选项验证您的网站所有权(。验证完成后，您可以在Google Sitemaps标签上选择Add General Web Sitemap选项并粘贴显示的网站地图URL。</value>
   </data>
   <data name="sitemapUrlLabel.Text" xml:space="preserve">
     <value>站点地图 URL</value>
   </data>
   <data name="lblCache.Help" xml:space="preserve">
-    <value>Enable this option if you want to cache the Sitemap so it is not generated every time it is requested. This is specially necessary for big sites. If your site has more than 50.000 URLs the Sitemap will be cached with a default value of 1 day. Set this value to 0 to disable the caching.</value>
+    <value>如果您想要缓存站点地图，请启用此选项，以免在每次请求时生成该站点。这对于大型网站来说是特别必要的。如果您的网站拥有超过50.000个网址，则Sitemap将缓存，默认值为1天。将此值设置为0可禁用缓存。</value>
   </data>
   <data name="lblCache.Text" xml:space="preserve">
-    <value>Days to Cache Sitemap For</value>
+    <value>缓存网站地图的日子</value>
   </data>
   <data name="lnkResetCache.Text" xml:space="preserve">
     <value>清理缓存</value>
   </data>
   <data name="lblExcludePriority.Help" xml:space="preserve">
-    <value>This option can be used to remove certain pages from the Sitemap. For example you can setup a priority of -1 for a page and enter -1 here to cause the page to not being included in the generated Sitemap.</value>
+    <value>此选项可用于从Sitemap中删除某些页面。例如，您可以为页面设置-1的优先级，并在此处输入-1以使页面不会包含在生成的Sitemap中。</value>
   </data>
   <data name="lblExcludePriority.Text" xml:space="preserve">
-    <value>Exclude URLs With a Priority Lower Than</value>
+    <value>排除优先级低于。的网址</value>
   </data>
   <data name="lblMinPagePriority.Help" xml:space="preserve">
-    <value>When "page level based priorities" is used, minimum priority for pages can be used to set the lowest priority that will be used on low level pages</value>
+    <value>当使用"基于页面级别的优先级"时，页面的最低优先级可用于设置将在低级别页面上使用的最低优先级</value>
   </data>
   <data name="lblMinPagePriority.Text" xml:space="preserve">
-    <value>Minimum Priority for Pages</value>
+    <value>页面的最低优先级</value>
   </data>
   <data name="lblIncludeHidden.Help" xml:space="preserve">
-    <value>When checked hidden pages (not visible in the menu) will also be included in the Sitemap. The default is not to include hidden pages.</value>
+    <value>当检查到的隐藏网页(在菜单)中不可见时，也会包含在Sitemap中。默认不包括隐藏页面。</value>
   </data>
   <data name="lblIncludeHidden.Text" xml:space="preserve">
     <value>包括隐藏页面</value>
   </data>
   <data name="lblLevelPriority.Help" xml:space="preserve">
-    <value>When checked, the priority for each page will be computed from the hierarchy level of the page. Top level pages will have a value of 1, second level 0.9, third level 0.8, ...  This setting will not change the value stored in the actual page but it will use the computed value when required.</value>
+    <value>选中后，每个页面的优先级将根据页面的层次结构级别进行计算。顶级页面的值为1，第二级别为0.9，第三级别为0.8，...此设置不会更改存储在实际页面中的值，但会在需要时使用计算值。</value>
   </data>
   <data name="lblLevelPriority.Text" xml:space="preserve">
-    <value>Use Page Level Based Priorities</value>
+    <value>使用基于页面级别的优先级</value>
   </data>
   <data name="1Day.Text" xml:space="preserve">
     <value>1 天</value>
@@ -571,16 +571,16 @@
     <value>禁用缓存</value>
   </data>
   <data name="enableSitemapProvider.Help" xml:space="preserve">
-    <value>Enable Sitemap Provider</value>
+    <value>启用S​​itemap提供程序</value>
   </data>
   <data name="enableSitemapProvider.Text" xml:space="preserve">
-    <value>Enable Sitemap Provider</value>
+    <value>启用S​​itemap提供程序</value>
   </data>
   <data name="overridePriority.Help" xml:space="preserve">
-    <value>Override Priority</value>
+    <value>覆盖优先级</value>
   </data>
   <data name="overridePriority.Text" xml:space="preserve">
-    <value>Override Priority</value>
+    <value>覆盖优先级</value>
   </data>
   <data name="Name.Header" xml:space="preserve">
     <value>名称</value>
@@ -592,13 +592,13 @@
     <value>优先级</value>
   </data>
   <data name="lblSearchEngine.Help" xml:space="preserve">
-    <value>Submit your site to the selected search engine for indexing.</value>
+    <value>将您的网站提交给选定的搜索引擎进行索引。</value>
   </data>
   <data name="lblSearchEngine.Text" xml:space="preserve">
     <value>搜索引擎</value>
   </data>
   <data name="lblVerification.Help" xml:space="preserve">
-    <value>When signing up with Google Search Console you will need to verify your site ownership. Choose the "Upload an HTML File" method from the Google Verification screen. Enter the file name displayed (ie. google53c0cef435b2b81e.html) into the Verification text box and click Create. Return to Google and select the Verify button.</value>
+    <value>在注册Google Search Console时，您需要验证您的网站所有权。从Google Verification屏幕上选择"上传HTML文件"方法。输入显示的文件名称(即。 google53c0cef435b2b81e.html )放入验证文本框中，然后点击创建。返回Google并选择验证按钮。</value>
   </data>
   <data name="lblVerification.Text" xml:space="preserve">
     <value>验证</value>
@@ -610,9 +610,9 @@
     <value>创建</value>
   </data>
   <data name="VerificationValidity.ErrorMessage" xml:space="preserve">
-    <value>Valid file name must has an extension .html (ie. google53c0cef435b2b81e.html)</value>
+    <value>有效的文件名必须具有扩展名.html (即。 google53c0cef435b2b81e.html )</value>
   </data>
   <data name="NoExtensionUrlProviders.Text" xml:space="preserve">
-    <value>No extension URL providers found</value>
+    <value>找不到扩展程序网址提供程</value>
   </data>
 </root>

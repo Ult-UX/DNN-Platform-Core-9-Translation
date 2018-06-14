@@ -43,36 +43,36 @@
     <value>文件夹</value>
   </data>
     <data name="plFolder.Help" xml:space="default">
-    <value>Select the folder to export the file to.</value>
+    <value>选择要将文件导出到的文件夹。</value>
   </data>
     <data name="plFile.Text" xml:space="default">
     <value>文件</value>
   </data>
     <data name="plFile.Help" xml:space="default">
-    <value>Enter a name for the export file.</value>
+    <value>输入导出文件的名称。</value>
   </data>
     <data name="cmdExport.Text" xml:space="default">
     <value>导出</value>
   </data>
     <data name="ControlTitle_exportmodule.Text" xml:space="default">
-    <value>Export Module</value>
+    <value>导出模块</value>
   </data>
     <data name="ModuleHelp.Text" xml:space="default">
-    <value>&lt;h1&gt;Export Module&lt;/h1&gt;&lt;p&gt;Administrators can export content for the specified module.&lt;/p&gt;</value>
+    <value>&lt;h1&gt;导出模块&lt;/h1&gt;&lt;p&gt;管理员可以导出指定模块的内容。&lt;/p&gt;</value>
   </data>
     <data name="NoContent.Text" xml:space="default">
-    <value>The module specified does not have any content.</value>
+    <value>指定的模块没有任何内容。</value>
   </data>
     <data name="ExportNotSupported.Text" xml:space="default">
-    <value>The module specified does not support the exporting of content.</value>
+    <value>指定的模块不支持导出内容。</value>
   </data>
     <data name="Error.Text" xml:space="default">
-    <value>An error occurred during the export.</value>
+    <value>导出期间发生错误。</value>
   </data>
     <data name="Validation.Text" xml:space="default">
-    <value>You must specify a folder and file for export.</value>
+    <value>您必须指定要导出的文件夹和文件。</value>
   </data>
     <data name="Root.Text" xml:space="default">
-    <value>Root</value>
+    <value>根</value>
   </data>
 </root>
