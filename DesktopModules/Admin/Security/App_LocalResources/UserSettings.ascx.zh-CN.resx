@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_usersettings.Text" xml:space="preserve">
+    <value>用户设置</value>
+  </data>
+  <data name="ProviderSettings.Text" xml:space="preserve">
+    <value>会员供应商设置</value>
+  </data>
+  <data name="UserAccounts.Text" xml:space="preserve">
+    <value>用户帐户设置</value>
+  </data>
+  <data name="Column_Address.Text" xml:space="preserve">
+    <value>显示地址栏:</value>
+  </data>
+  <data name="Column_Address.Help" xml:space="preserve">
+    <value>显示地址栏。</value>
+  </data>
+  <data name="Column_Authorized.Text" xml:space="preserve">
+    <value>显示授权列:</value>
+  </data>
+  <data name="Column_Authorized.Help" xml:space="preserve">
+    <value>显示授权列。</value>
+  </data>
+  <data name="Column_CreatedDate.Text" xml:space="preserve">
+    <value>显示创建日期列:</value>
+  </data>
+  <data name="Column_CreatedDate.Help" xml:space="preserve">
+    <value>显示创建日期列。</value>
+  </data>
+  <data name="Column_DisplayName.Text" xml:space="preserve">
+    <value>显示名称列:</value>
+  </data>
+  <data name="Column_DisplayName.Help" xml:space="preserve">
+    <value>显示名称列。</value>
+  </data>
+  <data name="Column_Email.Text" xml:space="preserve">
+    <value>显示电子邮件列:</value>
+  </data>
+  <data name="Column_Email.Help" xml:space="preserve">
+    <value>显示电子邮件列。</value>
+  </data>
+  <data name="Column_FirstName.Text" xml:space="preserve">
+    <value>显示名字列:</value>
+  </data>
+  <data name="Column_FirstName.Help" xml:space="preserve">
+    <value>显示名字列。</value>
+  </data>
+  <data name="Column_LastLogin.Text" xml:space="preserve">
+    <value>显示上次登录列:</value>
+  </data>
+  <data name="Column_LastLogin.Help" xml:space="preserve">
+    <value>显示上次登录列。</value>
+  </data>
+  <data name="Column_LastName.Text" xml:space="preserve">
+    <value>显示姓氏列:</value>
+  </data>
+  <data name="Column_LastName.Help" xml:space="preserve">
+    <value>显示姓氏列。</value>
+  </data>
+  <data name="Column_Telephone.Text" xml:space="preserve">
+    <value>显示电话列:</value>
+  </data>
+  <data name="Column_Telephone.Help" xml:space="preserve">
+    <value>显示电话列。</value>
+  </data>
+  <data name="Records_PerPage.Text" xml:space="preserve">
+    <value>每页用户:</value>
+  </data>
+  <data name="Records_PerPage.Help" xml:space="preserve">
+    <value>输入要在页面上显示的用户数量。</value>
+  </data>
+  <data name="ProviderSettingsHelp.Text" xml:space="preserve">
+    <value>在本节中，您可以查看成员资格提供者的设置。某些提供商可能允许您编辑设置。基于ASP.NET MemberRole的默认提供程序要求您编辑web.config，因此无法在此更新设置。</value>
+  </data>
+  <data name="PasswordSettings.Text" xml:space="preserve">
+    <value>密码老化设置</value>
+  </data>
+  <data name="PasswordSettingsHelp.Text" xml:space="preserve">
+    <value>您可以在本节中设置密码老化设置。</value>
+  </data>
+  <data name="Display_Mode.Text" xml:space="preserve">
+    <value>默认显示模式:</value>
+  </data>
+  <data name="Display_Mode.Help" xml:space="preserve">
+    <value>为用户网格选择默认显示模式。</value>
+  </data>
+  <data name="Security_UsersControl.Text" xml:space="preserve">
+    <value>用户在管理角色中显示模式:</value>
+  </data>
+  <data name="Security_UsersControl.Help" xml:space="preserve">
+    <value>选择用户控件以在“管理角色”模块控件中使用。</value>
+  </data>
+  <data name="FirstLetter.Text" xml:space="preserve">
+    <value>第一封信</value>
+  </data>
+  <data name="Combo.Text" xml:space="preserve">
+    <value>组合框</value>
+  </data>
+  <data name="TextBox.Text" xml:space="preserve">
+    <value>文本框</value>
+  </data>
+  <data name="Display_SuppressPager.Help" xml:space="preserve">
+    <value>如果只有一页记录，请选中此框以隐藏用户帐户网格中的页面</value>
+  </data>
+  <data name="Display_SuppressPager.Text" xml:space="preserve">
+    <value>禁用结果分页：</value>
+  </data>
+  <data name="Profile_ManageServices.Help" xml:space="preserve">
+    <value>选中此框可显示用户配置文件中的管理服务部分。</value>
+  </data>
+  <data name="Profile_ManageServices.Text" xml:space="preserve">
+    <value>显示管理服务:</value>
+  </data>
+  <data name="MembersOnly.Text" xml:space="preserve">
+    <value>内部使用</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Help" xml:space="preserve">
+    <value>可以指定用户显示名称的格式。该格式可以包括用于动态替换的标记，如[FIRSTNAME] [LASTNAME]。如果指定了显示名称格式，则不能再通过用户界面编辑显示名称。</value>
+  </data>
+  <data name="Security_DisplayNameFormat.Text" xml:space="preserve">
+    <value>显示名称:</value>
+  </data>
+  <data name="InvalidRegex.Text" xml:space="preserve">
+    <value>{0}的值不是有效的正则表达式。</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>用户帐户设置</value>
+  </data>
+  <data name="CannotChangeSettings.Text" xml:space="preserve">
+    <value>此网站是网站组的成员，这些设置由主网站控制。</value>
+  </data>
+</root>

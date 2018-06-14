@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,20 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoResizeHeight.Help" xml:space="preserve">
-    <value>The value of the AutoResizeHeight property indicates whether the RadEditor will auto-resize its height to match content height.
+    <value>AutoResizeHeight 属性的值指示 RadEditor 是否将自动调整其高度以匹配内容高度.
 
-This property is similar to the Overflow property of the DIV element, which is not supported by the IFRAME elements.
+此属性与DIV元素的溢出属性类似, FRAME 元素不支持.
 
-When the AutoResizeHeight property is set to true, then the editor's content area is resizing to match content heigh and no scrollbars will appear.</value>
+当 AutoResizeHeight 属性设置为 true 时,编辑器的内容区域将调整大小以匹配内容高度,并且不会出现滚动条.</value>
   </data>
   <data name="AutoResizeHeight.Text" xml:space="preserve">
-    <value>Auto Resize Height:</value>
+    <value>自动调整高度:</value>
   </data>
   <data name="BorderWidth.Help" xml:space="preserve">
-    <value>Sets the border in pixels around the control</value>
+    <value>设置控件边框宽度的像素</value>
   </data>
   <data name="BorderWidth.Text" xml:space="preserve">
-    <value>Border Width:</value>
+    <value>边框宽度:</value>
   </data>
   <data name="btnEditToolsFile.Text" xml:space="preserve">
     <value>Configure Editor Toolbars</value>
@@ -161,7 +161,7 @@ When the AutoResizeHeight property is set to true, then the editor's content are
     <value>Content Area Mode</value>
   </data>
   <data name="ContentFilters.Help" xml:space="preserve">
-    <value>Filters in RadEditor for ASP.NET AJAX are small code snippets, which are called in a sequence to process the editor content, when the mode (html / design / preview) is switched or when the page is submitted. Each filter is described here: &lt;a href="http://www.telerik.com/help/aspnet-ajax/contentfilters.html" target="_blank"&gt;Telerik Onlinehelp&lt;/a&gt;</value>
+    <value>用于ASP.NET AJAX的RadEditor中的过滤器是小型代码片段，当模式(html / design / preview )被切换时或当页面被提交时，这些代码片段在序列中被调用以处理编辑器内容。每个过滤器在此描述:&lt;a HREF = "HTTP ://www.telerik.com/help/aspnet-ajax/contentfilters.html " target= "_blank "&gt;Telerik 在线帮助 &lt;/a&gt;</value>
   </data>
   <data name="ContentFilters.Text" xml:space="preserve">
     <value>Content Filters:</value>
@@ -573,6 +573,6 @@ You must set the CustomLinks tool in your toolbar configuratioon in order to mak
     <value>Width:</value>
   </data>
   <data name="CannotManageHTMLEditorProviders.Text" xml:space="preserve">
-    <value>You cannot manage HTML Editor providers</value>
+    <value>您无法管理HTML编辑器提供程序</value>
   </data>
 </root>

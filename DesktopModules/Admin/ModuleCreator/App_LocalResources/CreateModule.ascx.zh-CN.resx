@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add.Title" xml:space="preserve">
+    <value>模块构建器</value>
+  </data>
+  <data name="plOwner.Text" xml:space="preserve">
+    <value>所有者名称:</value>
+  </data>
+  <data name="plOwner.Help" xml:space="preserve">
+    <value>鼓励开发人员为他们的模块使用唯一的名称空间，以避免与其他开发人员发生潜在的冲突。指定您的组织或公司的名称，它将用作前缀。</value>
+  </data>
+  <data name="plModule.Text" xml:space="preserve">
+    <value>模块名称:</value>
+  </data>
+  <data name="plModule.Help" xml:space="preserve">
+    <value>模块的唯一名称。</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>描述:</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>可选择提供模块的描述。</value>
+  </data>
+  <data name="plLanguage.Text" xml:space="preserve">
+    <value>语言:</value>
+  </data>
+  <data name="plLanguage.Help" xml:space="preserve">
+    <value>选择您的首选语言来开发模块。</value>
+  </data>
+  <data name="C#.Text" xml:space="preserve">
+    <value>C＃</value>
+  </data>
+  <data name="VB.Text" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
+  <data name="plTemplate.Text" xml:space="preserve">
+    <value>模板:</value>
+  </data>
+  <data name="plTemplate.Help" xml:space="preserve">
+    <value>选择你喜欢的模块开发模板。模块开发模板存储在Host Root文件夹的Modules子文件夹中。</value>
+  </data>
+  <data name="plControl.Text" xml:space="preserve">
+    <value>控制名称:</value>
+  </data>
+  <data name="plControl.Help" xml:space="preserve">
+    <value>输入模块控件的唯一名称。</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>创建模块</value>
+  </data>
+  <data name="InputValidation.ErrorMessage" xml:space="preserve">
+    <value>您必须提供所有者名称和模块名称并选择一个模块模板。</value>
+  </data>
+  <data name="SuperUser.ErrorMessage" xml:space="preserve">
+    <value>您必须是超级用户才能创建新模块。</value>
+  </data>
+  <data name="AlreadyExists.ErrorMessage" xml:space="preserve">
+    <value>模块已经以指定的名称存在。</value>
+  </data>
+  <data name="TemplateProblem.ErrorMessage" xml:space="preserve">
+    <value>读取选定的模块模板文件时发生错误。</value>
+  </data>
+</root>

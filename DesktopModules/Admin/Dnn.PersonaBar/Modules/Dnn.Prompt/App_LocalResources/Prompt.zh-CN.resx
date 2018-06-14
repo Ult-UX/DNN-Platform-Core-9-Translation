@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nav_Prompt.Text" xml:space="preserve">
+    <value>命令提示符</value>
+  </data>
+  <data name="Prompt_InvalidData.Text" xml:space="preserve">
+    <value>您提交了无效数据。您的请求无法处理。</value>
+  </data>
+  <data name="Prompt_InvalidSyntax.Text" xml:space="preserve">
+    <value>无效的语法</value>
+  </data>
+  <data name="Prompt_NotAuthorized.Text" xml:space="preserve">
+    <value>您无权访问此资源。您的会话可能已超时。如果是这样再次登录。</value>
+  </data>
+  <data name="Prompt_NotImplemented.Text" xml:space="preserve">
+    <value>此功能尚未实施。</value>
+  </data>
+  <data name="Prompt_ServerError.Text" xml:space="preserve">
+    <value>服务器遇到问题，无法处理您的请求。请稍后再试。</value>
+  </data>
+  <data name="Prompt_SessionTimedOut.Text" xml:space="preserve">
+    <value>您的会话可能已超时。如果是这样再次登录。</value>
+  </data>
+  <data name="CommandNotFound.Text" xml:space="preserve">
+    <value>找不到命令'{0}'。</value>
+  </data>
+  <data name="CommandOptionText.Text" xml:space="preserve">
+    <value>{0}或{1}</value>
+  </data>
+  <data name="DidYouMean.Text" xml:space="preserve">
+    <value>您的意思是'{0}'吗?</value>
+  </data>
+  <data name="Prompt_NoModules.Text" xml:space="preserve">
+    <value>找不到模块。</value>
+  </data>
+  <data name="Prompt_AddModuleError.Text" xml:space="preserve">
+    <value>尝试添加模块时发生错误。详情请参阅DNN事件查看器。</value>
+  </data>
+  <data name="Prompt_DesktopModuleNotFound.Text" xml:space="preserve">
+    <value>无法为此门户找到名称为“{0}”的桌面模块</value>
+  </data>
+  <data name="Prompt_ModuleAdded.Text" xml:space="preserve">
+    <value>已成功添加 {0} 新模块{1}</value>
+  </data>
+  <data name="Prompt_ModuleCopied.Text" xml:space="preserve">
+    <value>成功复制模块。</value>
+  </data>
+  <data name="Prompt_ModuleDeleted.Text" xml:space="preserve">
+    <value>模块已成功删除。</value>
+  </data>
+  <data name="Prompt_NoModulesAdded.Text" xml:space="preserve">
+    <value>没有添加模块</value>
+  </data>
+  <data name="Prompt_SourceAndTargetPagesAreSame.Text" xml:space="preserve">
+    <value>源页面ID和目标页面ID不能相同。\ n</value>
+  </data>
+  <data name="Prompt_ModuleMoved.Text" xml:space="preserve">
+    <value>成功移动模块。</value>
+  </data>
+  <data name="Prompt_ErrorWhileCopying.Text" xml:space="preserve">
+    <value>复制复制模块时发生错误。有关详情，请参阅DNN事件查看器。</value>
+  </data>
+  <data name="Prompt_ErrorWhileMoving.Text" xml:space="preserve">
+    <value>复制移动模块时发生错误。有关详情，请参阅DNN事件查看器。</value>
+  </data>
+  <data name="Prompt_FailedtoDeleteModule.Text" xml:space="preserve">
+    <value>无法删除ID为{0}的模块。请参阅日志查看器了解更多详情。</value>
+  </data>
+  <data name="Prompt_InsufficientPermissions.Text" xml:space="preserve">
+    <value>您没有足够的权限执行此操作。</value>
+  </data>
+  <data name="Prompt_ModuleNotFound.Text" xml:space="preserve">
+    <value>在ID为{1}的页面上找不到ID为{0}的模块</value>
+  </data>
+  <data name="Prompt_NoModule.Text" xml:space="preserve">
+    <value>找不到ID为{0}的模块。</value>
+  </data>
+  <data name="Prompt_PageNotFound.Text" xml:space="preserve">
+    <value>无法加载目标网页。在ID为'{0}'的门户中找不到页面</value>
+  </data>
+  <data name="Prompt_UserRestart.Text" xml:space="preserve">
+    <value>用户触发了应用程序重新启动</value>
+  </data>
+  <data name="Prompt_RestartApplication_Description.Text" xml:space="preserve">
+    <value>开始重新启动DNN实例并重新加载页面。</value>
+  </data>
+  <data name="Prompt_Default.Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Prompt_Description.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Prompt_Options.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Prompt_Required.Text" xml:space="preserve">
+    <value>需要</value>
+  </data>
+  <data name="Prompt_Type.Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Prompt_CommandNotFound.Text" xml:space="preserve">
+    <value>无法找到该命令的帮助</value>
+  </data>
+  <data name="Prompt_CommandHelpLearn.Text" xml:space="preserve">
+    <value>&lt;section class =“dnn-prompt-inline-help”&gt;
+
+  &lt;h3&gt;了解提示命令&lt;h3&gt;
+  &lt;p&gt;
+    与大多数命令行界面一样，您记住的命令越多，效率就越高。了解&lt;em&gt;背后的原因&lt;EM&gt;提示命令的命名和结构将如何让学习和内化更容易。
+   &lt;p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;strong&gt;提示不区分大小写&lt;strong&gt;。这意味着您可以使用小写，大写或混合大小写命令名称和选项标记名称。这是大多数命令行的典型特征，我们发现它使日常使用更加容易。
+     &lt;li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;命令是由单个短划线（ - ）分隔的1个单词或2个单词，并且不包含空格&lt;strong&gt;。
+     &lt;li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;单字命令：&lt;strong&gt;这些通常保留给与提示控制台本身或浏览器交互的命令。换句话说，这些命令大部分发生在浏览器中。一些示例是：&lt;code&gt;cls&lt;/code&gt;清除控制台屏幕，&lt;code&gt;重新加载&lt;code&gt;，告诉浏览器重新加载页面。 （code&gt;清除历史记录&lt;code&gt;）（尽管存在清除历史记录的快捷方式：&lt;code&gt;clh&lt;/code&gt;&lt;/li&gt;也有两个词语在客户端上运行，
+    &lt;li&gt;
+      &lt;strong&gt;双字命令：&lt;strong&gt;这些命令遵循格式&lt;code&gt;动作组件&lt;code&gt;＆mdash;动作，后跟单个破折号，后跟动作操作的组件或对象。
+     &lt;li&gt;
+   &lt;ol&gt;
+
+  &lt;h4&gt;常见操作&lt;h4&gt;
+  &lt;p&gt;这不是所有操作的完整列表，但涵盖了大部分操作...&lt;/p&gt;
+
+  &lt;table class =“table”&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;操作&lt;th&gt;
+      &lt;th&gt;说明&lt;th&gt;
+     &lt;tr&gt;
+     &lt;thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;列表&lt;td&gt;
+      &lt;td&gt;
+        检索对象列表。假设将返回两个或更多对象，以便命令的组成部分为复数：&lt;br&gt;
+        &lt;code&gt;列表页面&lt;code&gt;不&lt;code&gt;列表页面&lt;code&gt;
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;获得&lt;td&gt;
+      &lt;td&gt;
+        将检索单个对象。如果该命令产生多个对象，则只会找到找到的第一个对象。由于此命令对单个项目进行操作，因此该组件不是单数而是复数：&lt;br&gt;
+        &lt;code&gt;获取页面&lt;code&gt;不&lt;code&gt;获取页面&lt;code&gt;
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;新&lt;td&gt;
+      &lt;td&gt;
+        创建一个新的对象。我们选择了&lt;code&gt;新的&lt;code&gt;这个词，因为它需要的输入少于“创建”，而且比'add'更准确，这意味着向其他内容添加内容。
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;添加&lt;td&gt;
+      &lt;td&gt;
+        给别的东西添加东西。不要将它与&lt;code&gt;新的&lt;code&gt;混淆，&lt;em&gt;会创建&lt;em&gt;一个新对象。请考虑&lt;code&gt;添加角色&lt;code&gt;和&lt;code&gt;新角色&lt;code&gt;。前者用于为用户添加&lt;em&gt;添加&lt;EM&gt;一个或多个安全角色（即向用户已拥有的角色列表添加角色），而后者命令在DNN系统中创建新的安全角色。
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;集合&lt;td&gt;
+      &lt;td&gt;
+        修改一个对象。这可能意味着'更新'或设置（第一次）一个值。我们选择'set'这个词不仅因为它很短而且易于输入，还因为它在更多场景中更准确。 '更新'意味着您正在更改已设置的值，但如果您是第一次设置值，则更不准确。我们提到'set'是'update'长度的一半吗？
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;删除&lt;td&gt;
+      &lt;td&gt;
+        删除一个对象。这一行动的结果在内容上是依赖的。如果DNN为页面和用户提供回收站功能，那么该命令会将该对象发送到该回收站，以便稍后恢复。如果没有提供这样的设施，则该对象将被永久删除
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;还原&lt;td&gt;
+      &lt;td&gt;
+        如果一个对象先前已被删除，并且DNN为该对象提供了一个回收设施，那么这将恢复该对象。
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;清除&lt;td&gt;
+      &lt;td&gt;
+        如果该对象先前已被删除且DNN为该对象提供了回收设施，则该命令将永久删除该对象。 DNN用户界面通常将此称为“删除”，但我们认为“清除”更准确地反映了操作。
+       &lt;td&gt;
+     &lt;tr&gt;
+     &lt;tbody&gt;
+   &lt;table&gt;
+
+  &lt;h4&gt;常见组件&lt;h4&gt;
+  &lt;p&gt;具有DNN管理经验的任何用户都应熟悉大多数组件。以下是最常见的：&lt;p&gt;
+  &lt;p&gt;关于复数与奇异分量的注记：只要一个命令可以包含一个或多个项目，该组件就会是复数。例如，&lt;code&gt;列表模块&lt;code&gt;。当该命令设计为返回单个对象或第一个对象时，该组件将为单数形式，如&lt;code&gt;get-module&lt;/code&gt;&lt;/p&gt;
+
+  &lt;table class =“table”&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;组件&lt;th&gt;
+      &lt;th&gt;说明&lt;th&gt;
+     &lt;tr&gt;
+     &lt;thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;使用者/使用者&lt;td&gt;
+      &lt;td&gt;
+        DNN用户
+       &lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;网页/网页&lt;td&gt;
+      &lt;td&gt;网站中的页面。注意：由于历史原因，DNN在页面&lt;em&gt;内部&lt;EM&gt;将页面引用为制表符，而DNN用户界面将它们视为页面。我们选择使用“页面”，但您可能会看到对从与页面相关的命令返回的Tab或TabID的引用。对于提示的目的，你应该只使用'页面'，但要明白'页面和'选项卡'是同义词。&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;角色/角色&lt;td&gt;
+      &lt;td&gt;DNN安全角色&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;任务/任务&lt;td&gt;
+      &lt;td&gt;任务是DNN计划程序项目或计划任务。由于简洁，我们使用“任务”这个词。&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;入口/入口&lt;td&gt;
+      &lt;td&gt;DNN网站或门户网站&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td class =“mono”&gt;module / modules&lt;/td&gt;
+      &lt;td&gt;DNN模块。根据命令的不同，这可能是模块定义或模块实例。&lt;/td&gt;
+     &lt;tr&gt;
+     &lt;tbody&gt;
+   &lt;table&gt;
+
+  &lt;h4&gt;请参阅&lt;h4&gt;
+  &lt;a data-cmd =“帮助语法”class =“dnn-prompt-cmd-insert”href =“＃”_ LH_HTML_END&gt;基本语法&lt;a&gt;
+  &lt;a data-cmd =“help”class =“dnn-prompt-cmd-insert”href =“＃”_ LH_HTML_END&gt;提示命令列表&lt;a&gt;
+
+ &lt;section&gt;</value>
+  </data>
+  <data name="Prompt_CommandHelpSyntax.Text" xml:space="preserve">
+    <value>&lt;section class =“dnn-prompt-inline-help”&gt;
+  &lt;h3&gt;基本语法&lt;h3&gt;
+  &lt;p&gt;
+    &lt;em&gt;提示&lt;em&gt;的功能与终端，Bash shell，Windows CMD外壳或Powershell相似。您输入命令，然后按&lt;code&gt;ENTER&lt;/code&gt;并且计算机会响应结果。对于非常简单的命令，例如&lt;code&gt;帮助&lt;code&gt;或&lt;code&gt;列表模块&lt;code&gt;，这就是您所需要的。但是，某些命令可能需要额外的数据，或者可能允许您提供其他选项。
+   &lt;p&gt;
+  &lt;p&gt;
+    为命令指定目标或上下文：对于像用户那样在对象上运行的命令或需要像页面一样的上下文的命令，只需在该命令之后提供该信息即可。例如，要查找用户&lt;em&gt;JSMITH&lt;/em&gt;使用&lt;code&gt;获取用户&lt;code&gt;命令，键入：&lt;code&gt;GET-用户jsmith&lt;/code&gt;其次&lt;code&gt;ENTER&lt;/code &gt;键提交。如果您要指定标志（请参阅下一段），那么&lt;em&gt;总是在&lt;em&gt;命令的目标/上下文之后。
+   &lt;p&gt;
+  &lt;p&gt;
+    为命令指定选项：某些命令需要更多数据，或者允许您指定可选的配置信息。在&lt;em&gt;提示符&lt;EM&gt;中，我们称这些为“标志”。在&lt;EM&gt;命令所需的任何目标/上下文（参见上一段）和&lt;em&gt;必须&lt;em&gt;之前，这些内容应该在两个连字符或破折号（&lt;code&gt; - &lt;/code&gt;）之前。破折号之间不应有空格，破折号和国旗之间不应有空格。如果标志需要一个值，则在标志后添加该标志。
+   &lt;p&gt;
+  &lt;p&gt;
+    作为使用标志的示例，请执行&lt;code&gt;获得用户&lt;code&gt;命令。默认情况下，您将指定要查找的用户的用户名。但是，您也可以通过电子邮件地址进行搜索。在这种情况下，您可以使用&lt;code&gt; - 电子邮件&lt;code&gt;标志。以下是您将如何使用它的方法：
+   &lt;p&gt;
+  &lt;code class =“block”&gt;
+    get-user --email jsmith@sample.com
+   &lt;code&gt;
+  &lt;p&gt;
+    如果标志的值超过一个单词，请用双引号括起来，如下所示：
+   &lt;p&gt;
+  &lt;code class =“block”&gt;
+    set-page --title“我的页面”
+   &lt;code&gt;
+
+  &lt;h4&gt;请参阅&lt;h4&gt;
+  &lt;a data-cmd =“help learn”class =“dnn-prompt-cmd-insert”href =“＃”_ LH_HTML_END&gt;学习提示命令&lt;a&gt;
+  &lt;a data-cmd =“help”class =“dnn-prompt-cmd-insert”href =“＃”_ LH_HTML_END&gt;提示命令列表&lt;a&gt;
+
+ &lt;section&gt;</value>
+  </data>
+  <data name="Prompt_AddModule_Description.Text" xml:space="preserve">
+    <value>向网站上的页面添加一个模块。</value>
+  </data>
+  <data name="Prompt_AddModule_FlagModuleName.Text" xml:space="preserve">
+    <value>要添加的桌面模块的名称。这应该是唯一的现有模块名称。</value>
+  </data>
+  <data name="Prompt_AddModule_FlagModuleTitle.Text" xml:space="preserve">
+    <value>在页面上指定模块的标题。</value>
+  </data>
+  <data name="Prompt_AddModule_FlagPageId.Text" xml:space="preserve">
+    <value>要添加模块的页面的ID。</value>
+  </data>
+  <data name="Prompt_AddModule_FlagPane.Text" xml:space="preserve">
+    <value>指定应在其中添加模块的窗格。如果未提供，模块将被添加到ContentPane。</value>
+  </data>
+  <data name="Prompt_AddModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;将模块添加到页面&lt;/h4&gt;
+    &lt;code class ="block"&gt;add-module --name "Html" --pageid 23 --pane TopPane&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_CopyModule_Description.Text" xml:space="preserve">
+    <value>将模块复制到指定页面。</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagId.Text" xml:space="preserve">
+    <value>明确指定要复制的模块的模块ID。不需要使用该标志。您可以简单地提供ID值作为第一个参数。</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagIncludesettings.Text" xml:space="preserve">
+    <value>如果为true，则提示将将源模块的设置复制到复制的模块。</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagPageId.Text" xml:space="preserve">
+    <value>包含要复制的模块的页面的页面ID。</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagPane.Text" xml:space="preserve">
+    <value>指定应在哪个窗格中复制模块。如果未提供，模块将被复制到ContentPane。</value>
+  </data>
+  <data name="Prompt_CopyModule_FlagToPageId.Text" xml:space="preserve">
+    <value>目标页面的页面ID。您要将模块复制到的页面。</value>
+  </data>
+  <data name="Prompt_DeleteModule_Description.Text" xml:space="preserve">
+    <value>软删除特定页面上的模块。该模块将被发送到DNN回收站。这不会卸载模块或影响模块定义。</value>
+  </data>
+  <data name="Prompt_DeleteModule_FlagId.Text" xml:space="preserve">
+    <value>明确指定要检索的模块的模块ID。不需要使用该标志。您可以简单地提供ID值作为第一个参数。</value>
+  </data>
+  <data name="Prompt_DeleteModule_FlagPageId.Text" xml:space="preserve">
+    <value>指定要删除的模块所在页面的页面标识。</value>
+  </data>
+  <data name="Prompt_DeleteModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;删除并发送模块实例至回收站&lt;h4&gt;
+    &lt;p&gt;这将删除特定页面上的模块实例，并将其发送到DNN回收站&lt;p&gt;
+    &lt;code class ="block"&gt;delete-module 345 --pageid 42&lt;/code&gt;</value>
+  </data>
+  <data name="Prompt_GetModule_Description.Text" xml:space="preserve">
+    <value>检索有关指定页面中单个模块的详细信息</value>
+  </data>
+  <data name="Prompt_GetModule_FlagId.Text" xml:space="preserve">
+    <value>明确指定要检索的模块的模块ID。不需要使用该标志。您可以简单地提供ID值作为第一个参数。</value>
+  </data>
+  <data name="Prompt_GetModule_FlagPageId.Text" xml:space="preserve">
+    <value>包含该模块的页面的页面标识。</value>
+  </data>
+  <data name="Prompt_GetModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;获取关于特定模块的信息&lt;h4&gt;
+        &lt;p&gt;以下代码将检索第48页上模块ID为345的模块的详细信息&lt;p&gt;
+        &lt;code class =“block”&gt;get-module 359  - 第48页48&lt;/code&gt;
+        &lt;p&gt;以下版本是上述代码的更明确版本，但在第48页上做了同样的事情。&lt;p&gt;
+        &lt;code class =“block”&gt;get-module --id 359 --pageid 48&lt;/code&gt;
+
+        &lt;h4&gt;结果&lt;h4&gt;
+        &lt;table class =“command-result-tbl”&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ModuleId&lt;/td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;359&lt;/td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;标题&lt;td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;导航&lt;td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;模块名称&lt;td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;控制台&lt;td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;友好名称&lt;TD&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;控制台&lt;td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ModuleDefId&lt;/td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;102&lt;/td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;TabModuleId&lt;/td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;48&lt;/td&gt;
+             &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;已添加到网页&lt;td&gt;
+                &lt;td&gt;：&lt;td&gt;
+                &lt;td&gt;42，46，47，48&lt;/td&gt;
+             &lt;tr&gt;
+         &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_ListModules_Description.Text" xml:space="preserve">
+    <value>根据搜索条件检索模块列表</value>
+  </data>
+  <data name="Prompt_ListModules_FlagDeleted.Text" xml:space="preserve">
+    <value>指定时，该命令将查找门户中位于回收站中的所有模块实例（如果&lt;span class =“mono”&gt; - 删除&lt;span&gt;为true）或所有模块实例&lt;em&gt;而非&lt;EM &gt;（如果操作&lt;span class =“mono”&gt; - 删除了&lt;span&gt;为false）。如果指定了该标志但未给出值，则会默认为&lt;span class =“mono”&gt;true&lt;/span&gt;。此标志可与&lt;span class =“mono”&gt; - 名称&lt;span&gt;和&lt;span class =“mono”&gt;--title&lt;/span&gt;配合使用，以进一步优化结果</value>
+  </data>
+  <data name="Prompt_ListModules_FlagMax.Text" xml:space="preserve">
+    <value>页面的页面大小。 Max是500。</value>
+  </data>
+  <data name="Prompt_ListModules_FlagModuleName.Text" xml:space="preserve">
+    <value>要搜索的模块的名称。这接受通配符（*）字符进行部分搜索。模块名称与模块的友好名称或模块的标题不同。在包含该模块的页面上查找模块名称&lt;code&gt;列表模块&lt;code&gt;。搜索不区分大小写</value>
+  </data>
+  <data name="Prompt_ListModules_FlagModuleTitle.Text" xml:space="preserve">
+    <value>要搜索的模块的标题。这接受代表0个或更多字符的通配符（*）占位符。搜索不区分大小写。</value>
+  </data>
+  <data name="Prompt_ListModules_FlagPage.Text" xml:space="preserve">
+    <value>页码显示记录。</value>
+  </data>
+  <data name="Prompt_ListModules_FlagPageId.Text" xml:space="preserve">
+    <value>指定时，该命令将仅显示来自指定页面的模块。不需要使用该标志。您可以简单地提供ID值作为第一个参数。</value>
+  </data>
+  <data name="Prompt_ListModules_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;列出当前入口网站中的模块&lt;h4&gt;
+        &lt;code class =“block”&gt;list-modules&lt;/code&gt;
+
+        &lt;h4&gt;在特定页面上列出模块&lt;h4&gt;
+        &lt;code class =“block”&gt;list-modules 72&lt;/code&gt;
+
+        &lt;h4&gt;按模块名称过滤的列表模块&lt;h4&gt;
+        &lt;p&gt;这将返回当前门户中的所有XMod和XMod Pro模块&lt;p&gt;
+        &lt;code class =“block”&gt;list-modules --name XMod *&lt;/code&gt;
+
+        &lt;h4&gt;按模块名称过滤特定页面上的模块&lt;h4&gt;
+        &lt;p&gt;这将返回页面上的所有XMod和XMod Pro模块，其中Page / TabId为72&lt;/p&gt;
+        &lt;code class =“block”&gt;list-modules 72 --name XMod *&lt;/code&gt;
+
+        &lt;h4&gt;列出按名称和标题过滤的所有模块&lt;h4&gt;
+        &lt;p&gt;这将返回模块名称以站点&lt;strong&gt;开头，&lt;strong&gt;标题以Configure开头的门户网站中的所有模块。&lt;/p&gt;
+        &lt;code class =“block”&gt;list-modules --title配置* --name网站*&lt;/code&gt;
+        &lt;h4&gt;返回&lt;h4&gt;
+        &lt;table class =“command-result-tbl”&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;标题&lt;th&gt;
+                    &lt;th&gt;模块名称&lt;th&gt;
+                    &lt;th&gt;友好名称&lt;th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;AddedToPages&lt;/th&gt;
+                 &lt;tr&gt;
+             &lt;thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;394&lt;/td&gt;
+                    &lt;td&gt;配置门户设置，页面设计和应用模板...&lt;/td&gt;
+                    &lt;td&gt;SiteWizard&lt;/td&gt;
+                    &lt;td&gt;网站向导&lt;td&gt;
+                    &lt;td&gt;88&lt;/td&gt;
+                    &lt;td&gt;86&lt;/td&gt;
+                    &lt;td&gt;64&lt;/td&gt;
+                 &lt;tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;395&lt;/td&gt;
+                    &lt;td&gt;将网站地图配置为提交给常见搜索引擎&lt;td&gt;
+                    &lt;td&gt;Sitemap&lt;/td&gt;
+                    &lt;td&gt;Sitemap&lt;/td&gt;
+                    &lt;td&gt;106&lt;/td&gt;
+                    &lt;td&gt;87&lt;/td&gt;
+                    &lt;td&gt;65&lt;/td&gt;
+                 &lt;tr&gt;
+             &lt;tbody&gt;
+         &lt;table&gt;
+
+        &lt;h4&gt;列出门户网站中的所有已删除模块&lt;h4&gt;
+        &lt;p&gt;这将返回DNN回收站中的所有模块&lt;p&gt;
+        &lt;code class =“block”&gt;list-modules --deleted&lt;/code&gt;
+        &lt;h4&gt;返回&lt;h4&gt;
+        &lt;table class =“command-result-tbl”&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;标题&lt;th&gt;
+                    &lt;th&gt;窗格&lt;th&gt;
+                    &lt;th&gt;模块名称&lt;th&gt;
+                    &lt;th&gt;友好名称&lt;th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;被删除&lt;th&gt;
+                    &lt;th&gt;标签列表&lt;th&gt;
+                 &lt;tr&gt;
+             &lt;thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;358&lt;/td&gt;
+                    &lt;td&gt;主页横幅&lt;td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;106&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;74&lt;/td&gt;
+                 &lt;tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;410&lt;/td&gt;
+                    &lt;td&gt;已复制的模块&lt;td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;104&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;71&lt;/td&gt;
+                 &lt;tr&gt;
+             &lt;tbody&gt;
+         &lt;table&gt;
+
+        &lt;h4&gt;列出在名称和标题上过滤的所有已删除模块&lt;h4&gt;
+        &lt;p&gt;这将返回模块名称以“HTML”结尾的DNN回收站中的所有模块。并且其模块标题包含“that”&lt;/p&gt;
+        &lt;code class =“block”&gt;list-modules --deleted --name * HTML --title * that *&lt;/code&gt;
+        &lt;h4&gt;返回&lt;h4&gt;
+        &lt;table class =“command-result-tbl”&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;ModuleId&lt;/th&gt;
+                    &lt;th&gt;标题&lt;th&gt;
+                    &lt;th&gt;窗格&lt;th&gt;
+                    &lt;th&gt;模块名称&lt;th&gt;
+                    &lt;th&gt;友好名称&lt;th&gt;
+                    &lt;th&gt;ModuleDefId&lt;/th&gt;
+                    &lt;th&gt;TabModuleId&lt;/th&gt;
+                    &lt;th&gt;被删除&lt;th&gt;
+                    &lt;th&gt;标签列表&lt;th&gt;
+                 &lt;tr&gt;
+             &lt;thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;410&lt;/td&gt;
+                    &lt;td&gt;已复制的模块&lt;td&gt;
+                    &lt;td&gt;ContentPane&lt;/td&gt;
+                    &lt;td&gt;DNN_HTML&lt;/td&gt;
+                    &lt;td&gt;HTML&lt;/td&gt;
+                    &lt;td&gt;120&lt;/td&gt;
+                    &lt;td&gt;104&lt;/td&gt;
+                    &lt;td&gt;true&lt;/td&gt;
+                    &lt;td&gt;71&lt;/td&gt;
+                 &lt;tr&gt;
+             &lt;tbody&gt;
+         &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_MoveModule_Description.Text" xml:space="preserve">
+    <value>将模块移动到指定的页面</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagId.Text" xml:space="preserve">
+    <value>明确指定要复制的模块的模块ID。不需要使用该标志。您可以简单地提供ID值作为第一个参数。</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagPageId.Text" xml:space="preserve">
+    <value>包含要复制的模块的页面的页面ID。</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagPane.Text" xml:space="preserve">
+    <value>指定模块应该在哪个窗格中移动。如果未提供，模块将被移至ContentPane。</value>
+  </data>
+  <data name="Prompt_MoveModule_FlagToPageId.Text" xml:space="preserve">
+    <value>目标页面的页面ID。您要将模块复制到的页面。</value>
+  </data>
+  <data name="Prompt_MoveModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;将模块从一个页面移动到另一个页面&lt;h4&gt;
+    &lt;p&gt;这将命令页面上的模块ID为358的模块（页面ID为71），并将模块放置在页面上，页面ID为75&lt;/p&gt;
+    &lt;code class =“block”&gt;move-module 358 --pageid 71 --topageid 75&lt;/code&gt;
+
+    &lt;h4&gt;结果&lt;h4&gt;
+    &lt;table class =“command-result-tbl”&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;358&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;标题&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;我的模块&lt;td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;模块名称&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;DNN_HTML&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;友好名称&lt;TD&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;HTML&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleDefId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;120&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;TabModuleId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;107&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;已添加到网页&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;71，75&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan =“3”&gt;成功复制模块。&lt;/td&gt;
+       &lt;tr&gt;
+     &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_ClearCache_Description.Text" xml:space="preserve">
+    <value>清除服务器的缓存并重新加载页面。</value>
+  </data>
+  <data name="Prompt_ClearCache_ResultHtml.Text" xml:space="preserve">
+    <value>   &lt;code class =“block”&gt;
+      清除缓存
+     &lt;code&gt;
+    &lt;h4&gt;结果&lt;h4&gt;
+    &lt;table class =“command-result-tbl”&gt;
+      &lt;tr&gt;&lt;TD&gt;缓存已清除&lt;TD&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;TD&gt;3秒内重新加载&lt;TD&gt;&lt;/tr&gt;
+     &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_ClearHistory_Description.Text" xml:space="preserve">
+    <value>清除当前会话中使用的命令的历史记录</value>
+  </data>
+  <data name="Prompt_ClearLog_Description.Text" xml:space="preserve">
+    <value>清除当前门户的事件日志。</value>
+  </data>
+  <data name="Prompt_ClearLog_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;code class = "block"&gt;
+      清除日志
+    &lt;/code&gt;
+    &lt;h4&gt;结果&lt;/h4&gt;
+    &lt;table class = "command-result-tbl "&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;em&gt;[事件记录清除] &lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="Prompt_Cls_Description.Text" xml:space="preserve">
+    <value>清除提示控制台。 &lt;code&gt;cls&lt;/code&gt;为快捷键&lt;a HREF = "#clear-screen"&gt;&lt;code&gt;清屏&lt;/code&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Prompt_Echo_Description.Text" xml:space="preserve">
+    <value>回复收到的第一个参数</value>
+  </data>
+  <data name="Prompt_Exit_Description.Text" xml:space="preserve">
+    <value>退出提示控制台。</value>
+  </data>
+  <data name="Prompt_GetHost_Description.Text" xml:space="preserve">
+    <value>检索有关DNN安装的信息</value>
+  </data>
+  <data name="Prompt_GetHost_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;获取有关当前DNN安装的信息&lt;h4&gt;
+  &lt;code class =“block”&gt;
+    获得主机
+   &lt;code&gt;
+  &lt;h4&gt;结果&lt;h4&gt;
+  &lt;table class =“command-result-tbl”&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;DNN平台&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;版本&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;9.0.0.1002&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UpgradeAvailable&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;true&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;框架&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;4.6&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IP地址&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;fe80 :: a952：8263：d357：ab90％5&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;权限&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;ReflectionPermission，WebPermission，AspNetHostingPermission&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;dnnprompt.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;标题&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;DNN公司&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网址&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;http://www.dnnsoftware.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;电子邮件&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;support@dnnprompt.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;主题&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;重力（2-Col）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;容器&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;重力（Title_h2）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EditTheme&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;重力（2-Col）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EditContainer&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;重力（Title_h2）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalCount&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+     &lt;tr&gt;
+   &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_GetPortal_Description.Text" xml:space="preserve">
+    <value>检索有关当前门户或指定门户的基本信息</value>
+  </data>
+  <data name="Prompt_GetPortal_FlagId.Text" xml:space="preserve">
+    <value>入口标识获取信息。只有主机可以获取除当前的门户信息。</value>
+  </data>
+  <data name="Prompt_GetPortal_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;获取有关当前门户的信息&lt;h4&gt;
+  &lt;code class =“block”&gt;
+    获得门户
+   &lt;code&gt;
+  &lt;h4&gt;结果&lt;h4&gt;
+  &lt;table class =“command-result-tbl”&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalId&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;入口网站名称&lt;TD&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cdf版本&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;-1&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RegistrationMode&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;已验证&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PageCount&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;34&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SiteTheme&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（内部）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminTheme&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（管理员）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;容器&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（NoTitle）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理员容器&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（Title_h2）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;语言&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;zh-CN&lt;/td&gt;
+     &lt;tr&gt;
+   &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_GetSite_Description.Text" xml:space="preserve">
+    <value>检索有关当前门户或指定门户的基本信息</value>
+  </data>
+  <data name="Prompt_GetSite_FlagId.Text" xml:space="preserve">
+    <value>网站ID获取信息。只有主机可以获取除当前的门户信息。</value>
+  </data>
+  <data name="Prompt_GetSite_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;获取有关当前门户的信息&lt;h4&gt;
+  &lt;code class =“block”&gt;
+    获得门户
+   &lt;code&gt;
+  &lt;h4&gt;结果&lt;h4&gt;
+  &lt;table class =“command-result-tbl”&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PortalId&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;入口网站名称&lt;TD&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cdf版本&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;-1&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RegistrationMode&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;已验证&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DefaultPortalAlias&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;dnnsoftware.com&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PageCount&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;34&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UserCount&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SiteTheme&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（内部）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AdminTheme&lt;/td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（管理员）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;容器&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（NoTitle）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;管理员容器&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;Xcillion（Title_h2）&lt;td&gt;
+     &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;语言&lt;td&gt;
+      &lt;td&gt;：&lt;td&gt;
+      &lt;td&gt;zh-CN&lt;/td&gt;
+     &lt;tr&gt;
+   &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_ListCommands_Description.Text" xml:space="preserve">
+    <value>列出所有的命令。</value>
+  </data>
+  <data name="Prompt_ListPortals_Description.Text" xml:space="preserve">
+    <value>检索当前DNN安装的门户列表</value>
+  </data>
+  <data name="Prompt_ListSites_Description.Text" xml:space="preserve">
+    <value>检索当前DNN安装的门户列表</value>
+  </data>
+  <data name="Prompt_Reload_Description.Text" xml:space="preserve">
+    <value>重新加载当前页面</value>
+  </data>
+  <data name="Prompt_PagingMessage.Text" xml:space="preserve">
+    <value>{1}的{0}页。</value>
+  </data>
+  <data name="Prompt_PagingMessageWithLoad.Text" xml:space="preserve">
+    <value>{1}的{0}页。按任意键加载下一页。按下CTRL + X结束。</value>
+  </data>
+  <data name="Help_Default.Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Help_Description.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Help_Flag.Text" xml:space="preserve">
+    <value>旗</value>
+  </data>
+  <data name="Help_Options.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Help_Required.Text" xml:space="preserve">
+    <value>需要</value>
+  </data>
+  <data name="Help_Type.Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PromptGreeting.Text" xml:space="preserve">
+    <value>提示{0}键入\'help \'以获取命令列表</value>
+  </data>
+  <data name="ReloadingText.Text" xml:space="preserve">
+    <value>在3秒内重新加载</value>
+  </data>
+  <data name="SessionHisotryCleared.Text" xml:space="preserve">
+    <value>会话命令历史被清除。</value>
+  </data>
+  <data name="Prompt_GeneralCategory.Text" xml:space="preserve">
+    <value>一般命令</value>
+  </data>
+  <data name="Prompt_HostCategory.Text" xml:space="preserve">
+    <value>主机命令</value>
+  </data>
+  <data name="Prompt_ModulesCategory.Text" xml:space="preserve">
+    <value>模块命令</value>
+  </data>
+  <data name="Prompt_PortalCategory.Text" xml:space="preserve">
+    <value>门户命令</value>
+  </data>
+  <data name="Prompt_Help_Command.Text" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="Prompt_Help_Commands.Text" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="Prompt_Help_Description.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Prompt_Help_Learn.Text" xml:space="preserve">
+    <value>学习提示命令</value>
+  </data>
+  <data name="Prompt_Help_ListOfAvailableMsg.Text" xml:space="preserve">
+    <value>以下是提示的可用命令列表。</value>
+  </data>
+  <data name="Prompt_Help_PromptCommands.Text" xml:space="preserve">
+    <value>提示命令</value>
+  </data>
+  <data name="Prompt_Help_SeeAlso.Text" xml:space="preserve">
+    <value>也可以看看</value>
+  </data>
+  <data name="Prompt_Help_Syntax.Text" xml:space="preserve">
+    <value>概述/基本语法</value>
+  </data>
+  <data name="Prompt_ClearCache_Error.Text" xml:space="preserve">
+    <value>尝试清除缓存时发生错误。</value>
+  </data>
+  <data name="Prompt_ClearCache_Success.Text" xml:space="preserve">
+    <value>缓存清除。</value>
+  </data>
+  <data name="Prompt_ClearLog_Error.Text" xml:space="preserve">
+    <value>尝试清除事件日志时发生错误。</value>
+  </data>
+  <data name="Prompt_ClearLog_Success.Text" xml:space="preserve">
+    <value>事件日志已清除。</value>
+  </data>
+  <data name="Prompt_Echo_Nothing.Text" xml:space="preserve">
+    <value>没什么可以回应</value>
+  </data>
+  <data name="Prompt_Echo_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_FlagIsRequired.Text" xml:space="preserve">
+    <value>'[0]'是必需的。</value>
+  </data>
+  <data name="Prompt_GetHost_Unauthorized.Text" xml:space="preserve">
+    <value>您无权访问此功能。</value>
+  </data>
+  <data name="Prompt_GetHost__NoArgs.Text" xml:space="preserve">
+    <value>get-host命令不带任何参数或标志。</value>
+  </data>
+  <data name="Prompt_GetPortal_NoArgs.Text" xml:space="preserve">
+    <value>get-portal命令不带任何参数或标志。</value>
+  </data>
+  <data name="Prompt_GetPortal_NotFound.Text" xml:space="preserve">
+    <value>找不到ID为'{0}'的门户</value>
+  </data>
+  <data name="Prompt_ListCommands_Error.Text" xml:space="preserve">
+    <value>尝试列出命令时发生错误。</value>
+  </data>
+  <data name="Prompt_ListCommands_Found.Text" xml:space="preserve">
+    <value>找到{0}命令。</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Description.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Name.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Prompt_ListCommands_H_Version.Text" xml:space="preserve">
+    <value>版</value>
+  </data>
+  <data name="Prompt_ListCommands__H_Category.Text" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Prompt_ListPortals_NoArgs.Text" xml:space="preserve">
+    <value>list-portal命令不带任何参数或标志</value>
+  </data>
+  <data name="Prompt_SetMode_Description.Text" xml:space="preserve">
+    <value>设置DNN查看模式。这与单击DNN控制栏中的相应选项具有相同的效果。</value>
+  </data>
+  <data name="Prompt_SetMode_FlagMode.Text" xml:space="preserve">
+    <value>以下三种查看模式之一：&lt;code&gt;修改&lt;code&gt;，&lt;code&gt;布局&lt;code&gt;或&lt;code&gt;查看&lt;code&gt;。你不需要指定
+          明确指定&lt;span class =“mono”&gt; - 模式&lt;span&gt;标志。只需在命令后键入一个视图模式值即可。</value>
+  </data>
+  <data name="Prompt_SetMode_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;div&gt;
+    &lt;h4&gt;更改DNN查看模式&lt;h4&gt;
+    &lt;code class =“block”&gt;
+      设置模式布局
+     &lt;code&gt;或
+    &lt;code class =“block”&gt;
+      设置模式视图
+     &lt;code&gt;或
+    &lt;code class =“block”&gt;
+      设置模式编辑
+     &lt;code&gt;
+   &lt;div&gt;</value>
+  </data>
+  <data name="Prompt_UserRestart_Error.Text" xml:space="preserve">
+    <value>尝试重新启动应用程序时发生错误。</value>
+  </data>
+  <data name="Prompt_UserRestart_Success.Text" xml:space="preserve">
+    <value>应用程序重新启动</value>
+  </data>
+  <data name="Prompt_CopyModule_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;将模块从一个页面复制到另一个页面&lt;h4&gt;
+    &lt;p&gt;此命令在页面ID为71的页面上创建模块ID为358的模块的副本，并将该副本放置在页面上，页面ID为75&lt;/p&gt;
+    &lt;code class =“block”&gt;复制模块358  - 第71页71 --topageid 75&lt;/code&gt;
+
+    &lt;h4&gt;结果&lt;h4&gt;
+    &lt;table class =“command-result-tbl”&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;358&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;标题&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;我的模块&lt;td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;模块名称&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;DNN_HTML&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;友好名称&lt;TD&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;HTML&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;ModuleDefId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;120&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;TabModuleId&lt;/td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;107&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;已添加到网页&lt;td&gt;
+        &lt;td&gt;：&lt;td&gt;
+        &lt;td&gt;71，75&lt;/td&gt;
+       &lt;tr&gt;
+      &lt;tr&gt;
+        &lt;td colspan =“3”&gt;成功复制模块。&lt;/td&gt;
+       &lt;tr&gt;
+     &lt;table&gt;</value>
+  </data>
+  <data name="Prompt_ListCommands_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_ListPortals_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_ListSites_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;/h4&gt;</value>
+  </data>
+  <data name="Prompt_RestartApplication_ResultHtml.Text" xml:space="preserve">
+    <value>&lt;h4&gt;结果&lt;/h4&gt;
+    &lt;table class = "command-result-tbl "&gt;
+      &lt;tr&gt;&lt;td&gt;重新启动应用程序&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;3秒内重新载入&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+</root>

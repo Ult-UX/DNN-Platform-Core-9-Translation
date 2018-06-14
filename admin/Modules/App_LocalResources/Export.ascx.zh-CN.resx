@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -39,40 +39,40 @@
   <resheader name="Writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plFolder.Text">
+  <data name="plFolder.Text" xml:space="default">
     <value>文件夹</value>
   </data>
-  <data name="plFolder.Help">
+    <data name="plFolder.Help" xml:space="default">
     <value>Select the folder to export the file to.</value>
   </data>
-  <data name="plFile.Text">
+    <data name="plFile.Text" xml:space="default">
     <value>文件</value>
   </data>
-  <data name="plFile.Help">
+    <data name="plFile.Help" xml:space="default">
     <value>Enter a name for the export file.</value>
   </data>
-  <data name="cmdExport.Text">
+    <data name="cmdExport.Text" xml:space="default">
     <value>导出</value>
   </data>
-  <data name="ControlTitle_exportmodule.Text">
+    <data name="ControlTitle_exportmodule.Text" xml:space="default">
     <value>Export Module</value>
   </data>
-  <data name="ModuleHelp.Text">
+    <data name="ModuleHelp.Text" xml:space="default">
     <value>&lt;h1&gt;Export Module&lt;/h1&gt;&lt;p&gt;Administrators can export content for the specified module.&lt;/p&gt;</value>
   </data>
-  <data name="NoContent.Text">
+    <data name="NoContent.Text" xml:space="default">
     <value>The module specified does not have any content.</value>
   </data>
-  <data name="ExportNotSupported.Text">
+    <data name="ExportNotSupported.Text" xml:space="default">
     <value>The module specified does not support the exporting of content.</value>
   </data>
-  <data name="Error.Text">
+    <data name="Error.Text" xml:space="default">
     <value>An error occurred during the export.</value>
   </data>
-  <data name="Validation.Text">
+    <data name="Validation.Text" xml:space="default">
     <value>You must specify a folder and file for export.</value>
   </data>
-  <data name="Root.Text">
+    <data name="Root.Text" xml:space="default">
     <value>Root</value>
   </data>
 </root>

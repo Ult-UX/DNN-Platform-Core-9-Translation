@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -199,13 +199,13 @@
     <value>安装可用的扩展</value>
   </data>
   <data name="AppTitle.Text" xml:space="preserve">
-    <value />
+    <value/>
   </data>
   <data name="AppType.Text" xml:space="preserve">
-    <value />
+    <value/>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value />
+    <value/>
   </data>
   <data name="UpgradeMessage.Text" xml:space="preserve">
     <value>点击获取升级</value>
@@ -604,7 +604,7 @@
     <value>模块名称</value>
   </data>
   <data name="NewModule_NoneSpecified.Text" xml:space="preserve">
-    <value>&lt;没有指定&gt;</value>
+    <value>&lt;None Specified&gt;</value>
   </data>
   <data name="NewModule_OwnerFolder.HelpText" xml:space="preserve">
     <value>Module Developers are encouraged to use a "unique" folder inside DesktopModules for all the development, to avoid potential clashes with other developers. Select the folder you would like to use for your Module Development. Note: Folders with user controls (.ascx files) and the core admin folder are excluded from this list.</value>
@@ -622,13 +622,13 @@
     <value>定义</value>
   </data>
   <data name="AddModuleControl_HelpURL.HelpText" xml:space="preserve">
-    <value>您可以为此控件提供帮助 URL. 这将出现在操作菜单上.</value>
+    <value>您可以为此控件提供帮助URL。这将出现在操作菜单上。</value>
   </data>
   <data name="AddModuleControl_HelpURL.Label" xml:space="preserve">
     <value>帮助 URL</value>
   </data>
   <data name="AddModuleControl_Icon.HelpText" xml:space="preserve">
-    <value>为此控件选择一个图标. 如果主题支持，将显示在模块标题中.</value>
+    <value>为此控件选择一个图标。如果主题支持，将显示在模块标题中。</value>
   </data>
   <data name="AddModuleControl_Icon.Label" xml:space="preserve">
     <value>图标</value>
@@ -640,7 +640,7 @@
     <value>Key</value>
   </data>
   <data name="AddModuleControl_Module.HelpText" xml:space="preserve">
-    <value>这是模块的友好名称.</value>
+    <value>这是模块的友好名称。</value>
   </data>
   <data name="AddModuleControl_Module.Label" xml:space="preserve">
     <value>模块</value>
@@ -1015,7 +1015,7 @@
     <value>App ID</value>
   </data>
   <data name="AuthSystemSiteSettings_AppSecret.HelpText" xml:space="preserve">
-    <value>输入您为此身份验证提供程序配置的 APP 密码/使用者密码 的值.</value>
+    <value>输入您为此身份验证提供程序配置的APP秘密/使用者密码的值。</value>
   </data>
   <data name="AuthSystemSiteSettings_AppSecret.Label" xml:space="preserve">
     <value>APP 密码</value>
@@ -1039,7 +1039,7 @@
     <value>新文件夹</value>
   </data>
   <data name="CreateNewModule_NotSpecified.Label" xml:space="preserve">
-    <value>&lt;未标明&gt;</value>
+    <value>&lt;Not Specified&gt;</value>
   </data>
   <data name="Done.Button" xml:space="preserve">
     <value>完成</value>

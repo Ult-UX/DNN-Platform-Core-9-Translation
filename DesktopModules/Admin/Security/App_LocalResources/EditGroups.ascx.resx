@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:element name="root" msdata:IsDataSet="true">
+    <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
+        <xsd:element msdata:IsDataSet="true" name="root">
             <xsd:complexType>
                 <xsd:choice maxOccurs="unbounded">
                     <xsd:element name="data">
                         <xsd:complexType>
                             <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
                             </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" />
-                            <xsd:attribute name="type" type="xsd:string" />
-                            <xsd:attribute name="mimetype" type="xsd:string" />
+                            <xsd:attribute name="name" type="xsd:string"/>
+                            <xsd:attribute name="type" type="xsd:string"/>
+                            <xsd:attribute name="mimetype" type="xsd:string"/>
                         </xsd:complexType>
                     </xsd:element>
                     <xsd:element name="resheader">
                         <xsd:complexType>
                             <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
                             </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
                         </xsd:complexType>
                     </xsd:element>
                 </xsd:choice>
@@ -39,28 +39,28 @@
     <resheader name="Writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="plRoleGroupName.Text">
-        <value>Group Name:</value>
-    </data>
-    <data name="plRoleGroupName.Help">
-        <value>Enter the name of the role group.</value>
-    </data>
-    <data name="plDescription.Text">
-        <value>Description:</value>
-    </data>
-    <data name="plDescription.Help">
-        <value>Enter a description of the role group.</value>
-    </data>
-    <data name="valRoleGroupName.Text">
-        <value>You must enter a valid name.</value>
-    </data>
-    <data name="ControlTitle_editgroup.Text">
-        <value>Edit Role Group</value>
-    </data>
-    <data name="ModuleHelp.Text">
-        <value>&lt;h1&gt;About Edit Role Groups&lt;/h1&gt;&lt;p&gt;Administrators can manage the security role groups defined for their website. The module allows you to add new groups, modify existing groups and delete groups.&lt;/p&gt;</value>
-    </data>
-	<data name="DuplicateRoleGroup.Text">
-		<value>A role group with the same name already exists. The new group was not added.</value>
-	</data>
+    <data name="plRoleGroupName.Text" xml:space="default">
+    <value>Group Name:</value>
+  </data>
+    <data name="plRoleGroupName.Help" xml:space="default">
+    <value>Enter the name of the role group.</value>
+  </data>
+    <data name="plDescription.Text" xml:space="default">
+    <value>Description:</value>
+  </data>
+    <data name="plDescription.Help" xml:space="default">
+    <value>Enter a description of the role group.</value>
+  </data>
+    <data name="valRoleGroupName.Text" xml:space="default">
+    <value>You must enter a valid name.</value>
+  </data>
+    <data name="ControlTitle_editgroup.Text" xml:space="default">
+    <value>Edit Role Group</value>
+  </data>
+    <data name="ModuleHelp.Text" xml:space="default">
+    <value>&lt;h1&gt;About Edit Role Groups&lt;/h1&gt;&lt;p&gt;Administrators can manage the security role groups defined for their website. The module allows you to add new groups, modify existing groups and delete groups.&lt;/p&gt;</value>
+  </data>
+	<data name="DuplicateRoleGroup.Text" xml:space="default">
+    <value>A role group with the same name already exists. The new group was not added.</value>
+  </data>
 </root>
